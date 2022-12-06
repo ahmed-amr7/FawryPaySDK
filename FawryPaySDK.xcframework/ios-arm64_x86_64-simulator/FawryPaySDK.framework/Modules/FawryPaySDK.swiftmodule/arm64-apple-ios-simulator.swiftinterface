@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
 // swift-module-flags: -target arm64-apple-ios12.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FawryPaySDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import Alamofire
 import CommonCrypto
@@ -19,6 +20,7 @@ import SwiftMessages
 import UIKit
 import WebKit
 import _Concurrency
+import _StringProcessing
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class PaymentDetailsViewController : FawryPaySDK.BaseViewController {
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak open var buttonBaseView: UIKit.UIView!
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) open var backgroundView: UIKit.UIView!
@@ -38,8 +40,8 @@ extension FawryPaySDK.PaymentDetailsViewController : UIKit.UITableViewDelegate, 
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreGraphics.CGFloat
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
 }
 @objc public class LaunchCustomerModel : ObjectiveC.NSObject, Swift.Codable {
@@ -51,15 +53,15 @@ extension FawryPaySDK.PaymentDetailsViewController : UIKit.UITableViewDelegate, 
 }
 extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public func makeToast(_ message: Swift.String?, duration: Foundation.TimeInterval = ToastManager.shared.duration, position: FawryPaySDK.ToastPosition = ToastManager.shared.position, title: Swift.String? = nil, image: UIKit.UIImage? = nil, style: FawryPaySDK.ToastStyle = ToastManager.shared.style, completion: ((_ didTap: Swift.Bool) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) public func makeToast(_ message: Swift.String?, duration: Foundation.TimeInterval = ToastManager.shared.duration, point: CoreGraphics.CGPoint, title: Swift.String?, image: UIKit.UIImage?, style: FawryPaySDK.ToastStyle = ToastManager.shared.style, completion: ((_ didTap: Swift.Bool) -> Swift.Void)?)
+  @_Concurrency.MainActor(unsafe) public func makeToast(_ message: Swift.String?, duration: Foundation.TimeInterval = ToastManager.shared.duration, point: CoreFoundation.CGPoint, title: Swift.String?, image: UIKit.UIImage?, style: FawryPaySDK.ToastStyle = ToastManager.shared.style, completion: ((_ didTap: Swift.Bool) -> Swift.Void)?)
   @_Concurrency.MainActor(unsafe) public func showToast(_ toast: UIKit.UIView, duration: Foundation.TimeInterval = ToastManager.shared.duration, position: FawryPaySDK.ToastPosition = ToastManager.shared.position, completion: ((_ didTap: Swift.Bool) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) public func showToast(_ toast: UIKit.UIView, duration: Foundation.TimeInterval = ToastManager.shared.duration, point: CoreGraphics.CGPoint, completion: ((_ didTap: Swift.Bool) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public func showToast(_ toast: UIKit.UIView, duration: Foundation.TimeInterval = ToastManager.shared.duration, point: CoreFoundation.CGPoint, completion: ((_ didTap: Swift.Bool) -> Swift.Void)? = nil)
   @_Concurrency.MainActor(unsafe) public func hideToast()
   @_Concurrency.MainActor(unsafe) public func hideToast(_ toast: UIKit.UIView)
   @_Concurrency.MainActor(unsafe) public func hideAllToasts(includeActivity: Swift.Bool = false, clearQueue: Swift.Bool = true)
   @_Concurrency.MainActor(unsafe) public func clearToastQueue()
   @_Concurrency.MainActor(unsafe) public func makeToastActivity(_ position: FawryPaySDK.ToastPosition)
-  @_Concurrency.MainActor(unsafe) public func makeToastActivity(_ point: CoreGraphics.CGPoint)
+  @_Concurrency.MainActor(unsafe) public func makeToastActivity(_ point: CoreFoundation.CGPoint)
   @_Concurrency.MainActor(unsafe) public func hideToastActivity()
   @_Concurrency.MainActor(unsafe) public func toastViewForMessage(_ message: Swift.String?, title: Swift.String?, image: UIKit.UIImage?, style: FawryPaySDK.ToastStyle) throws -> UIKit.UIView
 }
@@ -68,17 +70,17 @@ public struct ToastStyle {
   public var backgroundColor: UIKit.UIColor
   public var titleColor: UIKit.UIColor
   public var messageColor: UIKit.UIColor
-  public var maxWidthPercentage: CoreGraphics.CGFloat {
+  public var maxWidthPercentage: CoreFoundation.CGFloat {
     get
     set
   }
-  public var maxHeightPercentage: CoreGraphics.CGFloat {
+  public var maxHeightPercentage: CoreFoundation.CGFloat {
     get
     set
   }
-  public var horizontalPadding: CoreGraphics.CGFloat
-  public var verticalPadding: CoreGraphics.CGFloat
-  public var cornerRadius: CoreGraphics.CGFloat
+  public var horizontalPadding: CoreFoundation.CGFloat
+  public var verticalPadding: CoreFoundation.CGFloat
+  public var cornerRadius: CoreFoundation.CGFloat
   public var titleFont: UIKit.UIFont
   public var messageFont: UIKit.UIFont
   public var titleAlignment: UIKit.NSTextAlignment
@@ -91,10 +93,10 @@ public struct ToastStyle {
     get
     set
   }
-  public var shadowRadius: CoreGraphics.CGFloat
-  public var shadowOffset: CoreGraphics.CGSize
-  public var imageSize: CoreGraphics.CGSize
-  public var activitySize: CoreGraphics.CGSize
+  public var shadowRadius: CoreFoundation.CGFloat
+  public var shadowOffset: CoreFoundation.CGSize
+  public var imageSize: CoreFoundation.CGSize
+  public var activitySize: CoreFoundation.CGSize
   public var fadeDuration: Swift.Double
   public var activityIndicatorColor: UIKit.UIColor
   public var activityBackgroundColor: UIKit.UIColor
@@ -176,7 +178,7 @@ public enum AddAddressMode : Swift.Int {
 extension FawryPaySDK.AddAddressViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MyPointsNewViewController : FawryPaySDK.BaseViewController {
   @objc @IBAction @_Concurrency.MainActor(unsafe) public func backBtnAction(_ sender: Any)
@@ -205,18 +207,18 @@ extension FawryPaySDK.MyPointsNewViewController : UIKit.UITableViewDelegate, UIK
   @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
 }
 extension FawryPaySDK.MyPointsNewViewController : UIKit.UITableViewDataSourcePrefetching {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, prefetchRowsAt indexPaths: [Foundation.IndexPath])
 }
 @objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class DesignableView : UIKit.UIView {
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var cornerRadius: CoreGraphics.CGFloat {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var cornerRadius: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var borderWidth: CoreGraphics.CGFloat {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var borderWidth: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
@@ -224,7 +226,7 @@ extension FawryPaySDK.MyPointsNewViewController : UIKit.UITableViewDataSourcePre
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var shadowRadius: CoreGraphics.CGFloat {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var shadowRadius: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
@@ -232,7 +234,7 @@ extension FawryPaySDK.MyPointsNewViewController : UIKit.UITableViewDataSourcePre
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var shadowOffset: CoreGraphics.CGSize {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var shadowOffset: CoreFoundation.CGSize {
     @objc get
     @objc set
   }
@@ -240,7 +242,7 @@ extension FawryPaySDK.MyPointsNewViewController : UIKit.UITableViewDataSourcePre
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
@@ -260,7 +262,7 @@ extension FawryPaySDK.MyPointsNewViewController : UIKit.UITableViewDataSourcePre
 extension FawryPaySDK.AddressListViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, commit editingStyle: UIKit.UITableViewCell.EditingStyle, forRowAt indexPath: Foundation.IndexPath)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class CreateVoucherViewController : FawryPaySDK.BaseViewController {
@@ -277,9 +279,9 @@ extension FawryPaySDK.CreateVoucherViewController : UIKit.UITableViewDelegate, U
   @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
 }
 extension UIKit.UITableViewCell {
   @_Concurrency.MainActor(unsafe) public static func cellIdentifier() -> Swift.String
@@ -517,8 +519,8 @@ extension FawryPaySDK.NearbyAddressViewController : UIKit.UITableViewDelegate, U
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreGraphics.CGFloat
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
 }
 public struct AppLanguage {
   public static let English: Swift.String
@@ -595,7 +597,7 @@ public class CardDetailsModel : Swift.Codable {
 extension FawryPaySDK.SavedCardsViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, commit editingStyle: UIKit.UITableViewCell.EditingStyle, forRowAt indexPath: Foundation.IndexPath)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class CreateVoucherPopUpViewController : FawryPaySDK.BaseComponentViewController {
@@ -632,7 +634,7 @@ public struct SectionModel {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class BaseViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
-    @_Concurrency.MainActor(unsafe) @objc get
+    @objc get
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
@@ -670,7 +672,7 @@ public class SectionViewModel {
 extension FawryPaySDK.MapViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
 }
 extension FawryPaySDK.MapViewController : UIKit.UITextFieldDelegate {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
@@ -741,9 +743,9 @@ extension FawryPaySDK.PaymentReceiptViewController : UIKit.UITableViewDelegate, 
   @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
 }
 extension UIKit.UIColor {
   public static var themeColor: UIKit.UIColor {
