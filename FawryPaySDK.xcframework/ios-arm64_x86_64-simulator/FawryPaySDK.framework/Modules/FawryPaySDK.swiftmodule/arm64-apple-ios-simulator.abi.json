@@ -24997,39 +24997,6 @@
             "moduleName": "FawryPaySDK"
           },
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "FawryPaySDK.PaymentMethod?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PaymentMethod",
-                    "printedName": "FawryPaySDK.PaymentMethod",
-                    "usr": "s:11FawryPaySDK13PaymentMethodO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11FawryPaySDK13PaymentMethodO8rawValueACSgSS_tcfc",
-            "mangledName": "$s11FawryPaySDK13PaymentMethodO8rawValueACSgSS_tcfc",
-            "moduleName": "FawryPaySDK",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
             "kind": "Var",
             "name": "rawValue",
             "printedName": "rawValue",
@@ -25067,6 +25034,39 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FawryPaySDK.PaymentMethod?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentMethod",
+                    "printedName": "FawryPaySDK.PaymentMethod",
+                    "usr": "s:11FawryPaySDK13PaymentMethodO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11FawryPaySDK13PaymentMethodO8rawValueACSgSS_tcfc",
+            "mangledName": "$s11FawryPaySDK13PaymentMethodO8rawValueACSgSS_tcfc",
+            "moduleName": "FawryPaySDK",
+            "implicit": true,
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Enum",
@@ -43149,35 +43149,35 @@
     {
       "filePath": "\/Users\/ahmedsharf\/Documents\/Projects\/FawryPaySDK\/FawryPaySDK\/FawryPaySDK\/AnonFrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 8248,
+      "offset": 8219,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ahmedsharf\/Documents\/Projects\/FawryPaySDK\/FawryPaySDK\/FawryPaySDK\/AnonFrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 8303,
+      "offset": 8274,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ahmedsharf\/Documents\/Projects\/FawryPaySDK\/FawryPaySDK\/FawryPaySDK\/AnonFrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 8773,
+      "offset": 8744,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ahmedsharf\/Documents\/Projects\/FawryPaySDK\/FawryPaySDK\/FawryPaySDK\/AnonFrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 10366,
+      "offset": 10337,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ahmedsharf\/Documents\/Projects\/FawryPaySDK\/FawryPaySDK\/FawryPaySDK\/AnonFrameworkHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 11920,
+      "offset": 11891,
       "length": 5,
       "value": "false"
     },
