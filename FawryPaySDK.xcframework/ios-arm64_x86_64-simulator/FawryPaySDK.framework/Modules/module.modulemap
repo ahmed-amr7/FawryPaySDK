@@ -6,6 +6,6 @@ framework module FawryPaySDK {
 }
 
 module FawryPaySDK.Swift {
-  header "FawryPaySDK-Swift.h"
-  requires objc
+    header "FawryPaySDK-Swift.h"
+    requires objc
 }
