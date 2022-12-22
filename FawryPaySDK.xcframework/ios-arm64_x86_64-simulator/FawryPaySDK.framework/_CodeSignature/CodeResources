@@ -6,19 +6,19 @@
 	<dict>
 		<key>AVLFieldsCell.nib</key>
 		<data>
-		c04IWTu1EsDXC52mltgY95V+H4U=
+		olTIHC8awbUMIz9BpEAhWxIKQMQ=
 		</data>
 		<key>AddAddressSectionHeadTableViewCell.nib</key>
 		<data>
-		mtRH4hT4bU0zgtAEoGdFymsaQNo=
+		Y/nzSNqgsvYeyF3Tem3BK3XvLxc=
 		</data>
 		<key>AddVoucherHeader.nib</key>
 		<data>
-		vXFYJ46DYezAQBkB0hXYjpT9bFc=
+		xS6+ynnMz9RpnlAUkD1v4lu4ohw=
 		</data>
 		<key>AddVoucherTableViewCell.nib</key>
 		<data>
-		jgeV/Q7MK9iIH143wUJBlEYbjcw=
+		Hqb5VSb+KHl1ID1OB4BfQ7TMPfk=
 		</data>
 		<key>AppBundleIds.json</key>
 		<data>
@@ -26,39 +26,47 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		IFq7MijFNJBD8bbGWQc6C3RP3VE=
+		DdQZ4tPKAX+R0mbEFsCRGryjAmM=
 		</data>
 		<key>AvailablePaymentMethodsTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		Gr/Hula6bv41EphH8iLNiYEUcFk=
+		FUPKpCMPu6VUcVK2EjAxa9suNnM=
 		</data>
 		<key>AvailablePaymentMethodsTableViewCell.nib/runtime.nib</key>
 		<data>
-		4Qimj+ybuuVcw14C43ZqvtB4Nt0=
+		0jjWPDMtZYaZsQWkiMryWgbyrlY=
 		</data>
 		<key>Base.lproj/AccountTotalPointsTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		L+vRZuHPGVgHr6+s3ZRZuqajCTY=
+		jePYrihnIFji+brXRhj89EThkVU=
 		</data>
 		<key>Base.lproj/AccountTotalPointsTableViewCell.nib/runtime.nib</key>
 		<data>
-		Q2MwMprTd+lnuTg5jHw6axmnEdU=
+		Qo0uIcm4JNZFYtCNFyEXaWCeFYo=
+		</data>
+		<key>Base.lproj/AddCardDetailsView.nib/objects-13.0+.nib</key>
+		<data>
+		8GqtPcRF//UhAipQjQYE3AzxOc8=
+		</data>
+		<key>Base.lproj/AddCardDetailsView.nib/runtime.nib</key>
+		<data>
+		Q6loBFo/YuHFctoIK98UIFl8jiU=
 		</data>
 		<key>Base.lproj/AddCardView.nib/objects-13.0+.nib</key>
 		<data>
-		gJZSlUT7cqeMAbJ1WzUNFXLgy8E=
+		reFCiQZVxMWBjf5UCBpRuAeyCeQ=
 		</data>
 		<key>Base.lproj/AddCardView.nib/runtime.nib</key>
 		<data>
-		0O87yNbKTc3BEk5DAYaB+MqjBl8=
+		UMTXITUS8bYTl+XkeEABLShkgwk=
 		</data>
 		<key>Base.lproj/Address.storyboardc/24t-Xc-ITB-view-igx-BR-LoL.nib/objects-13.0+.nib</key>
 		<data>
-		kf4OxpGPZ/KHbx9SORcjEnS3dr8=
+		ask0BTKKEJV/AtXJBUpRc6GUod8=
 		</data>
 		<key>Base.lproj/Address.storyboardc/24t-Xc-ITB-view-igx-BR-LoL.nib/runtime.nib</key>
 		<data>
-		47qmyePXe41058QuAjfFXjFYD0E=
+		jTE89PF0mE9qO5Q1Mg06LIMp00U=
 		</data>
 		<key>Base.lproj/Address.storyboardc/AddAddressViewController.nib/objects-13.0+.nib</key>
 		<data>
@@ -78,11 +86,11 @@
 		</data>
 		<key>Base.lproj/Address.storyboardc/EeV-kz-3pL-view-1R9-O2-ca9.nib/objects-13.0+.nib</key>
 		<data>
-		3UM25duA4o1piD92AtbU6khWVnk=
+		yVbSLPrreIUUDhoUWfffqUdBwcs=
 		</data>
 		<key>Base.lproj/Address.storyboardc/EeV-kz-3pL-view-1R9-O2-ca9.nib/runtime.nib</key>
 		<data>
-		2XL+iAN95m0q0esrpoWHnyDsJQ0=
+		E/4Fd3sNUA0H4zr0/zCCbQyZjPE=
 		</data>
 		<key>Base.lproj/Address.storyboardc/Info.plist</key>
 		<data>
@@ -114,39 +122,39 @@
 		</data>
 		<key>Base.lproj/Address.storyboardc/c9d-xT-v94-view-MF1-J7-K7p.nib/objects-13.0+.nib</key>
 		<data>
-		asILrLy6WV05cHhp6MFzeoIw28s=
+		5irU1oem5TRWJFehC6XyixeqzP8=
 		</data>
 		<key>Base.lproj/Address.storyboardc/c9d-xT-v94-view-MF1-J7-K7p.nib/runtime.nib</key>
 		<data>
-		u08dobgKjeYTLRQn5RvkbKKIaC8=
+		SZ3OIqzbDUIZvGsqkh3i31fAP5w=
 		</data>
 		<key>Base.lproj/Address.storyboardc/jTD-oZ-iB7-view-fIJ-NC-His.nib/objects-13.0+.nib</key>
 		<data>
-		qoVmyLClAcf+SuGYhMM2VQ7FDK8=
+		XoS1GOvpOAOadjyUWZjnvgSMPmk=
 		</data>
 		<key>Base.lproj/Address.storyboardc/jTD-oZ-iB7-view-fIJ-NC-His.nib/runtime.nib</key>
 		<data>
-		qoVmyLClAcf+SuGYhMM2VQ7FDK8=
+		XoS1GOvpOAOadjyUWZjnvgSMPmk=
 		</data>
 		<key>Base.lproj/Address.storyboardc/rxL-P3-dfq-view-4ZM-Sk-F70.nib/objects-13.0+.nib</key>
 		<data>
-		lFTtr9DRnXDh5+mkJBch7srKshI=
+		3RJNk+O40Y+tUZaLBfn71Zyy0jU=
 		</data>
 		<key>Base.lproj/Address.storyboardc/rxL-P3-dfq-view-4ZM-Sk-F70.nib/runtime.nib</key>
 		<data>
-		0b3py5xJofkOMNqP83fkkqoQczg=
+		e1YkqFz6tsnjMZnnBEH4ONgUw8E=
 		</data>
 		<key>Base.lproj/AddressDetailTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		TEUNiLLcf+he42ataBOkunf45aI=
+		sesnxKUSWjFsS/ZqE9woF+1qHvY=
 		</data>
 		<key>Base.lproj/AddressDetailTableViewCell.nib/runtime.nib</key>
 		<data>
-		A8t0YJdDtaimJ+JErzGbDjFn3oY=
+		EyepMlDgAgpHaKZNjzS8nRGUo7I=
 		</data>
 		<key>Base.lproj/Authentication3DSView.nib</key>
 		<data>
-		gkU2SLTp/GXXVBEAgLyM7QWl2Pc=
+		/jYKSfI149o4xckHMIwRpXRQwwQ=
 		</data>
 		<key>Base.lproj/CardDetails.storyboardc/AddCardViewController.nib/objects-13.0+.nib</key>
 		<data>
@@ -178,11 +186,11 @@
 		</data>
 		<key>Base.lproj/CardDetails.storyboardc/bgb-Ov-e3R-view-Dy4-Vz-N09.nib/objects-13.0+.nib</key>
 		<data>
-		4dAyIg4/iQBmBPoo+BUdE6cS+5s=
+		87Z4fTAwBXxgeI41M1VUNYh9pEM=
 		</data>
 		<key>Base.lproj/CardDetails.storyboardc/bgb-Ov-e3R-view-Dy4-Vz-N09.nib/runtime.nib</key>
 		<data>
-		OgvsnEfmZPsS/y4iCU5zc4s+IwI=
+		OSb6RnwcABaTOXpvIbBQRf0EEzE=
 		</data>
 		<key>Base.lproj/CardDetails.storyboardc/esk-YN-Syh-view-cLC-rn-wKN.nib/objects-13.0+.nib</key>
 		<data>
@@ -194,11 +202,11 @@
 		</data>
 		<key>Base.lproj/CardListTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		1jMyBlvTBAU3aj5s0/WPodk9s5Q=
+		2icBIyfrrvPbszRwaz9QMb7Gn/g=
 		</data>
 		<key>Base.lproj/CardListTableViewCell.nib/runtime.nib</key>
 		<data>
-		fVmOGC2qD/DRvWVoic04M+EKlLA=
+		ZKTUBSmR9UtQloTmR0vXUsDYoxk=
 		</data>
 		<key>Base.lproj/CartDetails.storyboardc/CartDetailsViewController.nib/objects-13.0+.nib</key>
 		<data>
@@ -214,11 +222,11 @@
 		</data>
 		<key>Base.lproj/CartDetails.storyboardc/POM-Rc-lav-view-oPs-Ij-UJs.nib/objects-13.0+.nib</key>
 		<data>
-		lnDortWraC9TuCus7jIbcjq8EZc=
+		IasDrF/PJnEXrJeOGB2tkIB2rck=
 		</data>
 		<key>Base.lproj/CartDetails.storyboardc/POM-Rc-lav-view-oPs-Ij-UJs.nib/runtime.nib</key>
 		<data>
-		aqbISgwFmXyFeYCe9bR3z9hiVWM=
+		HA73tjP71tfUIjClfotU0Vy3JlA=
 		</data>
 		<key>Base.lproj/CartDetails.storyboardc/UINavigationController-hSO-o7-LFA.nib/objects-13.0+.nib</key>
 		<data>
@@ -230,51 +238,51 @@
 		</data>
 		<key>Base.lproj/CartItemTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		Nq+j43m54KtPQQ/AEHMFHZRE8aE=
+		86dsjv2gS/Z/mUTIXz37adF+gTs=
 		</data>
 		<key>Base.lproj/CartItemTableViewCell.nib/runtime.nib</key>
 		<data>
-		+NpQZoSvna/l3PGAudIGOwyWZKQ=
+		5WEevIECd3dcB4M5QfolQOUUcgs=
 		</data>
 		<key>Base.lproj/ChooseCardView.nib/objects-13.0+.nib</key>
 		<data>
-		BW7zciZXoJqkRcKDBBh/IfjYgOc=
+		IJMuRRH3fy91ce+0AO8b8EZt8IA=
 		</data>
 		<key>Base.lproj/ChooseCardView.nib/runtime.nib</key>
 		<data>
-		zHEUfQ9NBvZhW+o2aN68jmRFfUI=
+		aiD/v5x3mJOP6yx815A8OXOUa3o=
 		</data>
 		<key>Base.lproj/ChoosePaymentMethodHeader.nib/objects-13.0+.nib</key>
 		<data>
-		Gl6Lwnxyctv6EZ8BZwRIwaWHwvo=
+		T+C2CAronWHDhsFLBLdOQeo0pC0=
 		</data>
 		<key>Base.lproj/ChoosePaymentMethodHeader.nib/runtime.nib</key>
 		<data>
-		UdaeCSOkUV3TFdOLsY0YfiZjXKI=
+		mutKy1eFnGvqZDUPHyUUNp328B8=
 		</data>
 		<key>Base.lproj/DefaultAddressTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		MxqevvJUJjwIyN3ShnW4pS4eCIc=
+		kqydOgnP3f3SeQ2ZhUrY7yavpVw=
 		</data>
 		<key>Base.lproj/DefaultAddressTableViewCell.nib/runtime.nib</key>
 		<data>
-		+2AYcPR1P/BOmvl6/v82bCslx88=
+		xYnZ2h2A7LQMpeeDa96/CDH4KbE=
 		</data>
 		<key>Base.lproj/HeaderAddAddressView.nib</key>
 		<data>
-		kFHQT1VBzWHc1vuv8Ftw91uQw6U=
+		9dwQVMo/5YfYxmSmlYGsxkVjflo=
 		</data>
 		<key>Base.lproj/HeaderRedeemPoints.nib</key>
 		<data>
-		ETqVRsT5GVLSuZRrpVtA5E1LFbM=
+		ILH2bH38c+wKyGH5qfl42xco0nU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/7bC-K3-3PI-view-kWM-Yd-73i.nib/objects-13.0+.nib</key>
 		<data>
-		nr4k0Qzy6CAL8ToN/ttSllshuhc=
+		fkgR1AKCMte3+VDKJgQwVubaqHk=
 		</data>
 		<key>Base.lproj/Main.storyboardc/7bC-K3-3PI-view-kWM-Yd-73i.nib/runtime.nib</key>
 		<data>
-		bgeJtSjXHDJgA5xm7nAuVYGfuTU=
+		mEhFBCpWjzXLDlzzsQO0ChBOYtg=
 		</data>
 		<key>Base.lproj/Main.storyboardc/DeletePopUpViewController.nib/objects-13.0+.nib</key>
 		<data>
@@ -290,11 +298,11 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/Oct-Qo-1Pg-view-ksQ-4j-ZOB.nib/objects-13.0+.nib</key>
 		<data>
-		TFyEyHArzGb/9kO1giRYTUbxnps=
+		/dzswhXmEvyJyHiPS3zr4Aix2OY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Oct-Qo-1Pg-view-ksQ-4j-ZOB.nib/runtime.nib</key>
 		<data>
-		hU6RPAWYsuhmtgERxR1kRu/hEdY=
+		oPneKui78HzS2THgGPtplZfrGzQ=
 		</data>
 		<key>Base.lproj/Main.storyboardc/PickerItemViewController.nib/objects-13.0+.nib</key>
 		<data>
@@ -330,27 +338,27 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/pf8-0T-c11-view-zZ2-AG-9XO.nib/objects-13.0+.nib</key>
 		<data>
-		z+lBlvDEieIlPYYhG6ukMOjpodA=
+		jgcBwDaUTGz9rkQdhGTZ/zrqYcY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/pf8-0T-c11-view-zZ2-AG-9XO.nib/runtime.nib</key>
 		<data>
-		z+lBlvDEieIlPYYhG6ukMOjpodA=
+		jgcBwDaUTGz9rkQdhGTZ/zrqYcY=
 		</data>
 		<key>Base.lproj/MapTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		UK74EMC6xzkvk/IuUmAFdl8tvGw=
+		MoJldOrk20y5/CUWF0IT+vJ+New=
 		</data>
 		<key>Base.lproj/MapTableViewCell.nib/runtime.nib</key>
 		<data>
-		ifsb9RE7jn5FLpyH25DPDasID+c=
+		f2PJSEapqSifkNwkTE/UllgcUuc=
 		</data>
 		<key>Base.lproj/Merchant.storyboardc/4R2-9E-jYN-view-9fO-pG-aSx.nib/objects-13.0+.nib</key>
 		<data>
-		sAKzhqF0570c4qOggC+vNtUVaqM=
+		1bhn3PbKs5sn61DeomXfimqVaus=
 		</data>
 		<key>Base.lproj/Merchant.storyboardc/4R2-9E-jYN-view-9fO-pG-aSx.nib/runtime.nib</key>
 		<data>
-		Tlg4lSFv4C2+ofadlkviTcZuaPc=
+		qDFr2XvWOZRxnydrNlfsnsW30/c=
 		</data>
 		<key>Base.lproj/Merchant.storyboardc/CustomerInputViewController.nib/objects-13.0+.nib</key>
 		<data>
@@ -366,11 +374,11 @@
 		</data>
 		<key>Base.lproj/Merchant.storyboardc/OFk-WG-gLG-view-WgX-bs-aEU.nib/objects-13.0+.nib</key>
 		<data>
-		5pbT1CTKcCQ8NcDwW+rfThHoOsg=
+		CNF5JpfsM9utSgtMp3SsKv7nSXY=
 		</data>
 		<key>Base.lproj/Merchant.storyboardc/OFk-WG-gLG-view-WgX-bs-aEU.nib/runtime.nib</key>
 		<data>
-		RIDXy7kxdfv6HjfRfmPDeK3LizY=
+		fpWqaclzbDaCHwR/4WMZfzQ2Tmk=
 		</data>
 		<key>Base.lproj/Merchant.storyboardc/PaymentDetailsViewController.nib/objects-13.0+.nib</key>
 		<data>
@@ -398,115 +406,115 @@
 		</data>
 		<key>Base.lproj/Merchant.storyboardc/lDZ-yZ-4oy-view-CvP-PL-UVS.nib/objects-13.0+.nib</key>
 		<data>
-		LRiSyUHEB519qWXy/eScUisVzMI=
+		1h86k7N9hoYSQLm06y5ffz7dyCE=
 		</data>
 		<key>Base.lproj/Merchant.storyboardc/lDZ-yZ-4oy-view-CvP-PL-UVS.nib/runtime.nib</key>
 		<data>
-		K6SWdMJSGYDBWkAFbHdjVOU4JME=
+		tNN+lBwfxAoWp2YrOG6D538AnlM=
 		</data>
 		<key>Base.lproj/Merchant.storyboardc/mwi-z2-kv5-view-zKw-sU-vg9.nib/objects-13.0+.nib</key>
 		<data>
-		CjHwfdbb4eJUt/B0mkltmAFsb5s=
+		0FgMPZ7fHA2g2ANUu1UT9J60W9E=
 		</data>
 		<key>Base.lproj/Merchant.storyboardc/mwi-z2-kv5-view-zKw-sU-vg9.nib/runtime.nib</key>
 		<data>
-		Gn5Uqu9Du2NUAE4RZzCZ47s0Kbs=
+		pF48hUhw6SNEKvlx/XgcVT2XMns=
 		</data>
 		<key>Base.lproj/MultipleTextInputTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		a75UCvDJEdh/Wsuses+1zqixdyc=
+		WE+chjRWHrXisWYt3wmhihR3Dr8=
 		</data>
 		<key>Base.lproj/MultipleTextInputTableViewCell.nib/runtime.nib</key>
 		<data>
-		HCIeRdZUW1M4EM0sLFwHA35kWwk=
+		nOy0fAv7X8bSRL5XDPQXEUiHLh4=
 		</data>
 		<key>Base.lproj/NearbyAddressDetailTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		Kp8nql9TCX95iTVutXzTSCZ50L0=
+		ZA56Y4saEO5pWtAYOPQ3iYMAC8k=
 		</data>
 		<key>Base.lproj/NearbyAddressDetailTableViewCell.nib/runtime.nib</key>
 		<data>
-		BYHZ7zNgapZx85cNLKjOYe3FVkY=
+		ZEf1DANCHV2F+SL/lFPLy6r4ckY=
 		</data>
 		<key>Base.lproj/NextActionTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		wP3v/bSAVbH4jA4x9xKLg+pbYfk=
+		FW0PkY8At/s/9T4zzM8Ml4e1+0k=
 		</data>
 		<key>Base.lproj/NextActionTableViewCell.nib/runtime.nib</key>
 		<data>
-		MnI6EdBrJO4BXQnukzVD9r3ueGw=
+		+wy0YnwZX7vYl/p9R2HCTyuMFow=
 		</data>
 		<key>Base.lproj/PaymentBreakUpTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		3lytXiJ2HYfDkdxTyIT5So79GX0=
+		JNrzCZDysN1rvbZk212I9Hb15Y0=
 		</data>
 		<key>Base.lproj/PaymentBreakUpTableViewCell.nib/runtime.nib</key>
 		<data>
-		U3UsvO0F6vMNnaX2whDO0kC98VI=
+		RaXgfCvsWsjHHkCxRFoJ7PXeBgk=
 		</data>
 		<key>Base.lproj/PaymentMethodTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		3L0nGtNTUlz8WfQcfhDI/jU3N3g=
+		N6NyXyeooakgCWw1EQycc/C4Wf8=
 		</data>
 		<key>Base.lproj/PaymentMethodTableViewCell.nib/runtime.nib</key>
 		<data>
-		jH78HkUginWnTpjWVo3FymKA42c=
+		c+EO/DGgemEtkraBXiFkSoUpxm0=
 		</data>
 		<key>Base.lproj/PointsTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		pmbcKfPu0PfBKtarzV8jEahB/L8=
+		Rmmfni8BQboVHV5ZHtt/i83VhWg=
 		</data>
 		<key>Base.lproj/PointsTableViewCell.nib/runtime.nib</key>
 		<data>
-		IqFRDKriSfpw+F9RJuhGIxxJDiM=
+		5zmwarZSLcpc6dq5pwmYIRYSh04=
 		</data>
 		<key>Base.lproj/PointsToRedeemTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		bEShVxWEb7aTpIHqlbrFEQ46iq4=
+		Fc5KlDDYdDbYlFmon8hcqfJu/BM=
 		</data>
 		<key>Base.lproj/PointsToRedeemTableViewCell.nib/runtime.nib</key>
 		<data>
-		T9Nlj9EOAfVSviAoqcZN0q93iSE=
+		R1uw19mw/NBsnhIoP2tZ6KldHuI=
 		</data>
 		<key>Base.lproj/RadioButtonTableViewCell.nib</key>
 		<data>
-		fGAEBF5vQR8pVlj757HJW7aly7M=
+		tkLBEpCbOlbmVBSB9CGoF5DhTeg=
 		</data>
 		<key>Base.lproj/SavedCardsTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		To+hEWW2pgHViFppZrD0Um2C8MU=
+		f1tK8LKICtTK36YrpEfFxrVHNY0=
 		</data>
 		<key>Base.lproj/SavedCardsTableViewCell.nib/runtime.nib</key>
 		<data>
-		NN2rVAM/kegNK5+gSvhR1Bj/NQk=
+		tVYpyW/CVP14VJgK408EOaxBMaE=
 		</data>
 		<key>Base.lproj/SelectAddressTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		E+CXmT8BKQXRznaUBxVruowP5eI=
+		YqYF1HS/M4mYmw4y9crKEH7mTps=
 		</data>
 		<key>Base.lproj/SelectAddressTableViewCell.nib/runtime.nib</key>
 		<data>
-		jH+Ml5FS0fgFWWNzADtVVhtF57M=
+		hhOFAj2hyJKwhl1G1Tca7YZ74ks=
 		</data>
 		<key>Base.lproj/TextInputTableViewCell.nib</key>
 		<data>
-		yMIddqqFQZSN7uS82S5esMNrx7g=
+		RInGjtHzSiIpUDFjnG2CnmkNSmQ=
 		</data>
 		<key>Base.lproj/TotalPointsHeader.nib/objects-13.0+.nib</key>
 		<data>
-		/E9i61GbjFi9iTRmZkUwPmBq5Ug=
+		rx4XeV7ooaN6uqEh4uIXMRGS2yU=
 		</data>
 		<key>Base.lproj/TotalPointsHeader.nib/runtime.nib</key>
 		<data>
-		9d4gL5GJult1NOeT3exdKpUl6zI=
+		7v2vxw9mJSPTkT147Nj86LmIbyY=
 		</data>
 		<key>CheckoutHeaderView.nib</key>
 		<data>
-		wsd0zy8riz7VjLSk2cyB9/s2K5g=
+		+8ZKSrVd6JNNwbBM4Q+faBAdQlQ=
 		</data>
 		<key>ChooseCourierView.nib</key>
 		<data>
-		puhl/LbiSpr9S+WFCAGX/VxxFXk=
+		SV79R7wUbnepdK0KT9fDbxH2lZE=
 		</data>
 		<key>Configuration.plist</key>
 		<data>
@@ -514,11 +522,11 @@
 		</data>
 		<key>CourierItemTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		C0sov2ZUJiqQV63qqsXYAyoKZKU=
+		ETjuWRvgHeYvtweZuAlHgQHXuJ0=
 		</data>
 		<key>CourierItemTableViewCell.nib/runtime.nib</key>
 		<data>
-		T+wG68Lk0tStD+W+dIeI37QI39E=
+		i2JD9HUgXQmHeoxss+aW867alMc=
 		</data>
 		<key>CreateVoucher.storyboardc/CreateVoucherPopUpViewController.nib/objects-13.0+.nib</key>
 		<data>
@@ -542,27 +550,27 @@
 		</data>
 		<key>CreateVoucher.storyboardc/YdB-Vz-Prf-view-2QC-Ho-ZuX.nib/objects-13.0+.nib</key>
 		<data>
-		dAZrWzo2nPypljBX8WzNrqGcmgA=
+		jiD3OJXHkFyfKpocsUKWKhqOHGQ=
 		</data>
 		<key>CreateVoucher.storyboardc/YdB-Vz-Prf-view-2QC-Ho-ZuX.nib/runtime.nib</key>
 		<data>
-		WuPKoVqQDCRC7zgiBtolyVAPYjA=
+		2YXqpNW1ARCjGDoLUujVuZp1nEM=
 		</data>
 		<key>CreateVoucher.storyboardc/Yda-Z7-cNg-view-kbc-Gw-OOv.nib/objects-13.0+.nib</key>
 		<data>
-		yvV2IyeYFfBc3ICrgX8+BxHKAjk=
+		ADzQT5cfUKkfNg+N2yVXZOoJR1c=
 		</data>
 		<key>CreateVoucher.storyboardc/Yda-Z7-cNg-view-kbc-Gw-OOv.nib/runtime.nib</key>
 		<data>
-		Fv264wpA+2QHdrjAK7+FdsE6O0w=
+		8HzOZ7GYv/PtRccXy/t7JC44FOY=
 		</data>
 		<key>CreditCardTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		1+gDNmrzVQ6vfG0tB73cMdZuGzw=
+		2t/ORXLQvvN027dbE52OiqIGYVc=
 		</data>
 		<key>CreditCardTableViewCell.nib/runtime.nib</key>
 		<data>
-		ZxAMVtSw7+GC1FXx7ephse+yn04=
+		yzWnwn4VaVGialc6PD5yH1qq35Y=
 		</data>
 		<key>Futura.ttc</key>
 		<data>
@@ -570,7 +578,7 @@
 		</data>
 		<key>Headers/FawryPaySDK-Swift.h</key>
 		<data>
-		9eg6jqoOfJ4rT/xCE2DckIsMZ4k=
+		IFKK30YgesqfUuBcHIgmo/IR4Xg=
 		</data>
 		<key>Headers/FawryPaySDK.h</key>
 		<data>
@@ -578,15 +586,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZCwobBIQVEt+v33fBWSGUieLQKw=
+		Zl+klvTpctT5cAsKxNjpXCy5hsM=
 		</data>
 		<key>InstallmentsCollectionViewCell.nib/objects-12.3+.nib</key>
 		<data>
-		d/jZaD2iDY/On6oCqNLmlHyWvbw=
+		1xpoff3ju+H1ef14i8J6QBo5TjI=
 		</data>
 		<key>InstallmentsCollectionViewCell.nib/runtime.nib</key>
 		<data>
-		jcq7qtep3u0kK4xc8/g4+VprI7I=
+		9CJXReyoQ1G5LWq40uYs7cwfMmQ=
 		</data>
 		<key>InstallmentsTableViewCell.nib</key>
 		<data>
@@ -594,35 +602,59 @@
 		</data>
 		<key>MainHistoryTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		x7F0W53avO1kdVF0xCVjKsLdQc8=
+		pAZdxpjtwXoW8vvVuUVfwXjrw3o=
 		</data>
 		<key>MainHistoryTableViewCell.nib/runtime.nib</key>
 		<data>
-		dqBiEG4RyCouNs8m7xHPQEbhCR0=
+		cmzpt2NkWTo8udNA8xnM0TrjhKU=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Us3KEJ6YlaLs8UirGc3XN1hycFw=
+		iCQw5pIrRwT1xvi2S1MqWMEMc5o=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		oYZo3mCG7Y+a7Pp4/Zi4rqSdaag=
+		nxOvuT3sUsJIEl0gTKoYdiJO12s=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SI7p9J4/uKOQoJsJhmFLvg15S8c=
+		cmaSaaqYVoJE07cdjDLI/d4B2jo=
+		</data>
+		<key>Modules/FawryPaySDK.swiftmodule/arm64.swiftdoc</key>
+		<data>
+		iCQw5pIrRwT1xvi2S1MqWMEMc5o=
+		</data>
+		<key>Modules/FawryPaySDK.swiftmodule/arm64.swiftinterface</key>
+		<data>
+		nxOvuT3sUsJIEl0gTKoYdiJO12s=
+		</data>
+		<key>Modules/FawryPaySDK.swiftmodule/arm64.swiftmodule</key>
+		<data>
+		cmaSaaqYVoJE07cdjDLI/d4B2jo=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		CqnXpl6ZqWGf2guOUpI79lJZHrI=
+		ZnNDJXRZ6Z+CYbhbCXceBjSxjQM=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		79Ynk+N450UJFllwy2QgvvFp0zc=
+		6dhLcsg9cBDIBhz6EaLNgL/LEwk=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RiN5B0v3NIIn3o/MGG1O6B2h8A8=
+		1mQ+R4Lu+GAfcqidqIDh62k6wtc=
+		</data>
+		<key>Modules/FawryPaySDK.swiftmodule/x86_64.swiftdoc</key>
+		<data>
+		ZnNDJXRZ6Z+CYbhbCXceBjSxjQM=
+		</data>
+		<key>Modules/FawryPaySDK.swiftmodule/x86_64.swiftinterface</key>
+		<data>
+		6dhLcsg9cBDIBhz6EaLNgL/LEwk=
+		</data>
+		<key>Modules/FawryPaySDK.swiftmodule/x86_64.swiftmodule</key>
+		<data>
+		1mQ+R4Lu+GAfcqidqIDh62k6wtc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -650,51 +682,51 @@
 		</data>
 		<key>MyPoints.storyboardc/bwG-2K-bzw-view-1oK-L9-FBA.nib/objects-13.0+.nib</key>
 		<data>
-		1RrWm3SmG1flcyV0fSYtJODb4jI=
+		eNROqUx+k7r/pMMsWCWSFvvUh1w=
 		</data>
 		<key>MyPoints.storyboardc/bwG-2K-bzw-view-1oK-L9-FBA.nib/runtime.nib</key>
 		<data>
-		owZ5gthBI5nAOU8M7rs3WXboZ7c=
+		D5ZwRhkhJ9ZgJ9iWPNq32HIq3ww=
 		</data>
 		<key>MyPoints.storyboardc/tFK-9B-48p-view-Scf-GR-Ajx.nib/objects-13.0+.nib</key>
 		<data>
-		2MUgVhpWSrEd3uGnadbvKU/+zLc=
+		0rWw0g3aMlquqlsLpAB0VWLCIAc=
 		</data>
 		<key>MyPoints.storyboardc/tFK-9B-48p-view-Scf-GR-Ajx.nib/runtime.nib</key>
 		<data>
-		ZolycGfDWuADslIrsTY83ljxYeA=
+		O1iiGqhHkZpBv7LYl+crQo4v7KI=
 		</data>
 		<key>OrderNumberTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		K4llheYcoI9DIBtyO8e4KEsTsGk=
+		zMvciQhRn6vjcaqlAUaVRs6cW0w=
 		</data>
 		<key>OrderNumberTableViewCell.nib/runtime.nib</key>
 		<data>
-		qTaX1b8WxMKATOtjxiaPtZED5rA=
+		uw1FvGiq3am6P9v5jdY5iCaEoqM=
 		</data>
 		<key>PaymentAddressTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		egFrQxS7lowdKn3Fblx+AFqsAh0=
+		VgmWFMfS/Dhs99J3JxxZDMn+em4=
 		</data>
 		<key>PaymentAddressTableViewCell.nib/runtime.nib</key>
 		<data>
-		cF1qw/vnv4Vp23gl4OMrgvRhcV0=
+		5ttpmAKlmb6DdmFv8tEmpi1qWeA=
 		</data>
 		<key>PreferredLocationTableViewCell.nib</key>
 		<data>
-		TOu3rXWQzdKzokFTWRu4oVds8os=
+		curfsxyyejkANn0SJ2kx4/d8UuM=
 		</data>
 		<key>ProgramVouchersCollectionViewCell.nib/objects-12.3+.nib</key>
 		<data>
-		hzvC6ggXrIRv3KGx8Z7ggunmTPo=
+		l72VYaTqh1PAuEISWxmcz1xCo9k=
 		</data>
 		<key>ProgramVouchersCollectionViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		XyW7Y/OMTzB6IcA0LyGNTb+iz30=
+		XPUSbdICsYNzGUw2CtLegSDs8ho=
 		</data>
 		<key>ProgramVouchersCollectionViewCell.nib/runtime.nib</key>
 		<data>
-		3htg3+AMvEwF0VshnAxektyKhTw=
+		VVegnPxrMFwL5rV30n0osEQflMg=
 		</data>
 		<key>ProgramVouchersTableViewCell.nib</key>
 		<data>
@@ -702,7 +734,7 @@
 		</data>
 		<key>QRCodeTableViewCell.nib</key>
 		<data>
-		aLd2Sm7f9xn1uNrA/RWigccvL28=
+		mzVVrptmUCTAMxqzjzQCUktxlxE=
 		</data>
 		<key>ReleaseNotes.txt</key>
 		<data>
@@ -714,11 +746,11 @@
 		</data>
 		<key>ScheduledTimeTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		j/MnRaDNjEZqZKum18QphC6g6vs=
+		FLhJpN3I3INEZp8vsWO+YMwGqQI=
 		</data>
 		<key>ScheduledTimeTableViewCell.nib/runtime.nib</key>
 		<data>
-		ZLoj4PS9nq+jviGLGrJhnhJFy9M=
+		o/gMVIf5rDH90c7R7PG5LWjhnu4=
 		</data>
 		<key>Steelworks Vintage Demo.ttf</key>
 		<data>
@@ -726,43 +758,43 @@
 		</data>
 		<key>TextOnlyTableViewCell.nib</key>
 		<data>
-		2LK/m0uemx32fa8u/cwSxLBW1JA=
+		VtbLl5KNs0qN1AL4p9mEHZ/0BYo=
 		</data>
 		<key>TotalPointsTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		vEIlg3ekY43H4Q3qx06IIWjpyfw=
+		FPKlx5wsIL+04JetlIVws/ScvzE=
 		</data>
 		<key>TotalPointsTableViewCell.nib/runtime.nib</key>
 		<data>
-		7Q0tsfdTh/mLnC3Ofx60gQYIBBk=
+		DEgG8nMfwx/hFtc4K8Gqr2pCoPk=
 		</data>
 		<key>VoucherAppliedTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		Eh5FZ7XcYeWqF/istV2JB5zGdJ4=
+		IZfTGFN5hblA2Q1MxallnwV9g38=
 		</data>
 		<key>VoucherAppliedTableViewCell.nib/runtime.nib</key>
 		<data>
-		m5cwUT3GaMGpO+vH1So0AGAPD5Q=
+		btC1UJVZeCDdJxwHzfIKKh0gP5c=
 		</data>
 		<key>VoucherValuesHeader.nib</key>
 		<data>
-		GQOfzMpCmTfoe/vBKHWG666nVjU=
+		8KEpLIw0S9YCwm3XxkXnn2md32I=
 		</data>
 		<key>VouchersTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		z8KXVrSig2BdOr8g3yiAMzasPvE=
+		LD7jINHhOmOKx2N8blOapN0PhrA=
 		</data>
 		<key>VouchersTableViewCell.nib/runtime.nib</key>
 		<data>
-		WV8frtFTW6aiQQMQgDFBavdktpw=
+		4LSEfOjS+14X+bXu+nCS4X/NL1Y=
 		</data>
 		<key>WalletPaymentOptionsTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		G2TV2kfRcrVlz/pq9+FCneZtRNg=
+		t82yGuHVmoJg5l4ZYSO2v/oB6Lk=
 		</data>
 		<key>WalletPaymentOptionsTableViewCell.nib/runtime.nib</key>
 		<data>
-		gLfOdVpAGAYAIM7yOMdgfNwaLeM=
+		OGR2unR8MFAsysYEO5excAJWohg=
 		</data>
 		<key>ar.lproj/ LoyaltyManagement.strings</key>
 		<dict>
@@ -1332,28 +1364,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C5aynYMT+mjqUQVeBAFANrXijjmFw1iua9nvY5A5Kks=
+			Fp76/hg1uLINEAyNF17zO0GD5Sb2+60aMFW14FaZ15g=
 			</data>
 		</dict>
 		<key>AddAddressSectionHeadTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EB4DRVBX/zWxAoV6EyfDxtdecHR9kKPSlIedEGF/WwM=
+			F9rDShgmfTyqUg+tdAScJiJ5mnS09J2/+VCNkYKWnHg=
 			</data>
 		</dict>
 		<key>AddVoucherHeader.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JcqlmXIIQMXuIrKV4ogwUO5B1qQmBmzVEH1X6TK+rG8=
+			/AJsjJKcfP1xCQIaXEaDijplinO2LLF8SNzUPvVo25Q=
 			</data>
 		</dict>
 		<key>AddVoucherTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b84eBMOKBXsSY3n4cO9mQtfQZZsn4eGK1Vyv48kXCTc=
+			SPxuQPok7MtRD3dkZ15uErTVKbt/G7pfkJzjDOvHbj4=
 			</data>
 		</dict>
 		<key>AppBundleIds.json</key>
@@ -1367,63 +1399,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xYHYfN33OHgEiv9pdjF3FxnLfzc0q1h5sJAeMvWgddM=
+			7WhJHVJQBpkBPiSQebU0M8SSrOunb9hc5XD/sRp1fv4=
 			</data>
 		</dict>
 		<key>AvailablePaymentMethodsTableViewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4yv6o2t2LG/hN9WSY6Q5zH57GKNirjvq3dlH8ZHMMDk=
+			w+qJJAlQ2ehg8lg/tulCD+epLdPTG/jfpW07fWpcmtc=
 			</data>
 		</dict>
 		<key>AvailablePaymentMethodsTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PfqjT14+KyjVSG9KSLUXU0d1DfW5+1nfiOUutBQ68XY=
+			Xs/ELOn/NTxQ4bGJv9JRJ/CllyFUIrVK9a2wE9dXgOg=
 			</data>
 		</dict>
 		<key>Base.lproj/AccountTotalPointsTableViewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R3O526rtzU9B7ohM5sRkBuguHR8ezfXaLkg3+JUQ/DM=
+			uEsV9Skw8lDoxfx6iJ4MZh+VQcLdkGZmIYZOswWcFDU=
 			</data>
 		</dict>
 		<key>Base.lproj/AccountTotalPointsTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			94BUNddUPEnLkEAq9PYbGHCc+hWrmFHOTubCgnFF8Rc=
+			sP9GxnZq7ioNCdD0wa/vhMUK10dpigJQUJKP2Db0t2Y=
+			</data>
+		</dict>
+		<key>Base.lproj/AddCardDetailsView.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			co985t6Hh8YMNO2TwqTbyQEUHUkl+v3mgYiiQlyUrEo=
+			</data>
+		</dict>
+		<key>Base.lproj/AddCardDetailsView.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			E+fmStBqVn0TztUyrR3TYPunglK/c1jK5gTmGenvm/A=
 			</data>
 		</dict>
 		<key>Base.lproj/AddCardView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f64HPEjlljrMH3hEPvI3YGNg3irEM/s/DplpzWaaDPY=
+			4z5YXRUeFWNx9gzO5BxUpauCYAHxc1fKOiS1uAPDu24=
 			</data>
 		</dict>
 		<key>Base.lproj/AddCardView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lpKGsLu9idD340ZalD16fhK54TwfHDRJr5vLx3/zc2Q=
+			MhHDw27M95ugEVQQ9OK7J+HwYp7zuuGWAHCXm8aWGf4=
 			</data>
 		</dict>
 		<key>Base.lproj/Address.storyboardc/24t-Xc-ITB-view-igx-BR-LoL.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HacutfIvYC5YWtHvq8QptSzIAiGbx9pqcExVbT1AeGo=
+			3gjxf447SqN/dvDdBPL2Zl3gJaFKHHx+Qh0ohrCFFEI=
 			</data>
 		</dict>
 		<key>Base.lproj/Address.storyboardc/24t-Xc-ITB-view-igx-BR-LoL.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oXpfFVZawmYbybUxAwkfDq4WJB1TpxrKhNTgwnvL7JI=
+			OqwSsUj0pmPgOSP6FCIogmi5wEmEwFN7vskYmGKx+6c=
 			</data>
 		</dict>
 		<key>Base.lproj/Address.storyboardc/AddAddressViewController.nib/objects-13.0+.nib</key>
@@ -1458,14 +1504,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1U7tBcj75ptMD5j7H504EIGOK5gnfSNJz37/xAZt2lk=
+			cM1PvvuQqKGD1qRgQVmWagc1TlvTIPOqUfrNBe0WPJs=
 			</data>
 		</dict>
 		<key>Base.lproj/Address.storyboardc/EeV-kz-3pL-view-1R9-O2-ca9.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kuf/UQi375JsDdOazPs5/S2/iwqQ8aNEleo+9hbY40g=
+			1txRHvv1sJWKXN1ml12XtP6YgTWuXd8dKAx3ujYsyBk=
 			</data>
 		</dict>
 		<key>Base.lproj/Address.storyboardc/Info.plist</key>
@@ -1521,63 +1567,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d8fpQzpGC4dk2abwMgrzvmXKFs54lkEXqMn7IVUMyMw=
+			UfHyOPaIXR1QrngDpIYXaSA0cjlZmqx+6s45fUrYtW0=
 			</data>
 		</dict>
 		<key>Base.lproj/Address.storyboardc/c9d-xT-v94-view-MF1-J7-K7p.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7801r1F9hSXITLYBMIU6IN52Ywek7zYp1jPCNXlwjM4=
+			bV84tf+3TKW2scjDvP1SbBsC9YdJ0kf6xIJW0da7Mtk=
 			</data>
 		</dict>
 		<key>Base.lproj/Address.storyboardc/jTD-oZ-iB7-view-fIJ-NC-His.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qyw7OcuujJqTTnImcm7i6P2bkpGN7Ev0efm9l3C1vaA=
+			7ph50w+bmFevO0wbPLCaqvDuk0lZ4dBiffPgTBJGTpQ=
 			</data>
 		</dict>
 		<key>Base.lproj/Address.storyboardc/jTD-oZ-iB7-view-fIJ-NC-His.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qyw7OcuujJqTTnImcm7i6P2bkpGN7Ev0efm9l3C1vaA=
+			7ph50w+bmFevO0wbPLCaqvDuk0lZ4dBiffPgTBJGTpQ=
 			</data>
 		</dict>
 		<key>Base.lproj/Address.storyboardc/rxL-P3-dfq-view-4ZM-Sk-F70.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L0c2cPKdkVZU5KKdFCssJIA16kqjgD40Rp9OoxKN1Rs=
+			c8mUyybZwyOB+9RukMVDC1Il+CX9NQH5xZksQ2pjiIw=
 			</data>
 		</dict>
 		<key>Base.lproj/Address.storyboardc/rxL-P3-dfq-view-4ZM-Sk-F70.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k33oKfFmLGcO9wY5PYg3VjpYn356DWfhxOY8DM7SRBw=
+			ocl6WoV1BnDOHrYIoDySxO1FSBIMmALqFeHVeyEtiJs=
 			</data>
 		</dict>
 		<key>Base.lproj/AddressDetailTableViewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kBZIWbgfZk5J7477bYtNChmvAAgchtSqbA08KH0BX+Q=
+			Wr4ALg88hCV2E6hozahYvSbdYPPVr0dAFqkwUvBRRzI=
 			</data>
 		</dict>
 		<key>Base.lproj/AddressDetailTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			epA/Fe5DYTRNECAqvsLvFx1jw8Go6A5MI+rIziQ6Lqo=
+			w/gy98dJzaqt9/dT9kgYhf75kOHAu04jlT2xFxUbynQ=
 			</data>
 		</dict>
 		<key>Base.lproj/Authentication3DSView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r5s9h0kUVTWqZ9SekMSu5B1lATNCpSSPgi3xvu2AKCE=
+			LGEOXGNGx//FaJE8D3tSaJEQmoVHKpl9XmkEIeKumH4=
 			</data>
 		</dict>
 		<key>Base.lproj/CardDetails.storyboardc/AddCardViewController.nib/objects-13.0+.nib</key>
@@ -1633,14 +1679,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cz7XXQGMBKECN5O2ZEUnR1Ph9Kk7tGJojj6pCnmLS/E=
+			/P+T42AnsVdmU35Zy1U2zuU+e6J82BRKjAgfc9Dgk5o=
 			</data>
 		</dict>
 		<key>Base.lproj/CardDetails.storyboardc/bgb-Ov-e3R-view-Dy4-Vz-N09.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1f1i5yI1mFOd/j6KRWjF96IRSK9Dz5bDByRWGhay8zk=
+			BNWCrBUllXL/rgk2sIbYKmFQUgPxhK6zsYgyC4aX21w=
 			</data>
 		</dict>
 		<key>Base.lproj/CardDetails.storyboardc/esk-YN-Syh-view-cLC-rn-wKN.nib/objects-13.0+.nib</key>
@@ -1661,14 +1707,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/FVPta0NXQMXtB3IW2Qdp8Wu4s7O0nUicDi9yANSZP4=
+			ljobCwM90+BfhTSr/GRhctKOFM8rV+C0/MHSKQ9O2ss=
 			</data>
 		</dict>
 		<key>Base.lproj/CardListTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FkJ1C493DVPhNyfNx7uwXBmkSR8hQtZLOYkOz+oxlj8=
+			3Q4THw0sfqmu/NkNMtOaHQlQQDV0E3QIt+r+wHmud1c=
 			</data>
 		</dict>
 		<key>Base.lproj/CartDetails.storyboardc/CartDetailsViewController.nib/objects-13.0+.nib</key>
@@ -1696,14 +1742,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/gPxDmX93PpHBmkz2u0AXIGHpPZ9/TxNRIUWey4KBoo=
+			0lPw9AZK62fEdW386uqhgyTsFXeF3Ldj0neFekvZX+o=
 			</data>
 		</dict>
 		<key>Base.lproj/CartDetails.storyboardc/POM-Rc-lav-view-oPs-Ij-UJs.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IOL8Jcja7v/RKwJAokERdtmt5WaDMIycsbJ+/epG9DE=
+			uy9p9Bb7j/4kvOoO/J0A6AIb1TdcBkjZrRSUPU9FMK0=
 			</data>
 		</dict>
 		<key>Base.lproj/CartDetails.storyboardc/UINavigationController-hSO-o7-LFA.nib/objects-13.0+.nib</key>
@@ -1724,84 +1770,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2TFbMQ1sOseWlnhkHq1WNcFkRKsoEhPomc/QxTIIZg0=
+			R/q4z/wVjXxBwnL6eV9XwKehV6iky/b6K+WGcSwLz7Q=
 			</data>
 		</dict>
 		<key>Base.lproj/CartItemTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iCS7LkZJwaeqA8CReA5VILI+2gpHVzmTe0xvRiFfaQs=
+			PLhmMoHRcBfkpgC2HadOGwiYJtqkB2DSmBwPbllF3k4=
 			</data>
 		</dict>
 		<key>Base.lproj/ChooseCardView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CCOpZgIZhXcd62lFmrL5oJG0jrWcABMItx4s+Y0+p3o=
+			m0kSZGSaXYgGSCBxrKi4H0i5Dq5jzT66Ed/BbWcPTV4=
 			</data>
 		</dict>
 		<key>Base.lproj/ChooseCardView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q2RragfVeExUBuhhu2tDeR7AzdmNkTviKyX9UeR15wI=
+			XLbcu5yzl3Vo/nMhgilNL7LNegnD7u6ryQJie1CTR+s=
 			</data>
 		</dict>
 		<key>Base.lproj/ChoosePaymentMethodHeader.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i0rMfyNEULfqjLdhccsEJ5/s9rC6NcvQ1D8GsILBvF0=
+			wJ21/pyrjJOXOxn7LOPefMKcaw0kxOtjqWuFhHO3HCs=
 			</data>
 		</dict>
 		<key>Base.lproj/ChoosePaymentMethodHeader.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B9/KeZGZ6hAFGUP9dRGiBfZQwtLLmifBurLX63O9g1U=
+			ha1LyqW8uBHpwwgkrYArBxJVVBhStF9QbQHBppoyAl8=
 			</data>
 		</dict>
 		<key>Base.lproj/DefaultAddressTableViewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QP+yF+etPy5SXnRsC0qJIsWqOA6oGLaj/FyvvQIqJeU=
+			SqHoS0X5gWuLSO4d7GFsLxvvivCZHS4gshLokl+1hL8=
 			</data>
 		</dict>
 		<key>Base.lproj/DefaultAddressTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b7Ay/nH8XQWDl9yd2VJ33xAKmGmtEFULovdvMvGcB0c=
+			bgMLr8Nl+TO7odRGeuIkcP5uDf5jv7EIzB2wbpsz+QA=
 			</data>
 		</dict>
 		<key>Base.lproj/HeaderAddAddressView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vFz2Sgaf4Z05V+ZrwK+31VLTa/wgXYS373wS/8VLvwg=
+			14OCq8yP81c6H511BOT83qQMuD11/poUca/ey2AjiEQ=
 			</data>
 		</dict>
 		<key>Base.lproj/HeaderRedeemPoints.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+cP9kAafQdoFzx8+IQEZ99munVaf9B+RRPXPl2gxMJ4=
+			5G6iA0axgVVT2e5N1uo/K9G4j98Z5wTKRsNFDU+G7jM=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/7bC-K3-3PI-view-kWM-Yd-73i.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LdwXqOiUI8VzGFi9CRx0kgNcgonSQXtblVefvkryN9Q=
+			3E8MWbTF8tbbeTPS44SGUItSx8EO+2bJvQWVs1MI84w=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/7bC-K3-3PI-view-kWM-Yd-73i.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w87BAMR4pIFIA6n5Z/pYSeSZ/Lg+tLWCnG8JI4jtB5o=
+			95HYIrJWy9tCLg2araLyyIpmYuiH+cSg1uydCQpz5KI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/DeletePopUpViewController.nib/objects-13.0+.nib</key>
@@ -1829,14 +1875,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8NSJ016BZdv0PF7huj5HRhVOANYrTRwkc95mnwTc/c8=
+			3K6P3UudmYpCQCtWqntcS2YSUJDiZsU2t9rTV2UkjmE=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Oct-Qo-1Pg-view-ksQ-4j-ZOB.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dUm3TXhJqJ8rhzrmoXXEvrVqSe3CK83Yke756ZrGTwk=
+			8122YlgvQLIUy0RMlyWTnI0xccRX0L5ge4XScKhV1l8=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/PickerItemViewController.nib/objects-13.0+.nib</key>
@@ -1899,42 +1945,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ELAV1o7E+UQ2M4X3x/S77Y/r+nAInXiuI4SXngkN0rU=
+			HT4LH7NepAqvoNUwWPPawlybtOf7rnqCui26icGRle8=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/pf8-0T-c11-view-zZ2-AG-9XO.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ELAV1o7E+UQ2M4X3x/S77Y/r+nAInXiuI4SXngkN0rU=
+			HT4LH7NepAqvoNUwWPPawlybtOf7rnqCui26icGRle8=
 			</data>
 		</dict>
 		<key>Base.lproj/MapTableViewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dXDOZ/6mlTMCRSyAdFMy3JQOG8kOLEiRICUK9XVEjRE=
+			5N+3YLlfTSn+RgZJHT2TPmi3ht0BYhOjR/Nba61FLDw=
 			</data>
 		</dict>
 		<key>Base.lproj/MapTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wQdRWbMpZ9LgFEzKxiUF1TqRAfcaN6awSfe58VhfB7Y=
+			z1MTek8J1jTZBgFX/2Zp+BH4/LNlPpJT1E7IoT+OTOA=
 			</data>
 		</dict>
 		<key>Base.lproj/Merchant.storyboardc/4R2-9E-jYN-view-9fO-pG-aSx.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5OKGYRSMqr9do49a3meO0NWExA0Ddi2903w0HN8mArw=
+			tmp+e1cU2NZ53SRA3ZXfPgVIH5+z2G65T7J5dWv/lvM=
 			</data>
 		</dict>
 		<key>Base.lproj/Merchant.storyboardc/4R2-9E-jYN-view-9fO-pG-aSx.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1FO6rHY4Cl1Ekx7L2cpffIHqepGXw5wXOCxKAqYidH4=
+			t6IYHIUuvlJQgDY0pr0gLowDCMSaTgVZTkT2V8AjUZk=
 			</data>
 		</dict>
 		<key>Base.lproj/Merchant.storyboardc/CustomerInputViewController.nib/objects-13.0+.nib</key>
@@ -1962,14 +2008,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hd6PJeFIGnVV/ikIvf6eyR69qvuJqvMAplQjumBcPTM=
+			V8fnAatiibWjXaSTUA2QffIz7C3UyycR+afBROQ1iDk=
 			</data>
 		</dict>
 		<key>Base.lproj/Merchant.storyboardc/OFk-WG-gLG-view-WgX-bs-aEU.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6DnJG5ooBYUcJ18iYj/TT9CgEiSUzk8weIMgeOJGRXA=
+			cPM2/FbRBJ4IETtB2T6jxvlVKGz3lRq1JzQbaTj6yTk=
 			</data>
 		</dict>
 		<key>Base.lproj/Merchant.storyboardc/PaymentDetailsViewController.nib/objects-13.0+.nib</key>
@@ -2018,196 +2064,196 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Knwjl9OOSqwvGzfLiANy3xyWlBSc0wfqBjZGyTSXVtk=
+			7vnWFHHANm6bcxkSe/2leUrxx82pQNQGv9P/8qTISJM=
 			</data>
 		</dict>
 		<key>Base.lproj/Merchant.storyboardc/lDZ-yZ-4oy-view-CvP-PL-UVS.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aSiRarlrV+lYHT0UiVmakILKBdv/VEx+mwCiYzlSXKQ=
+			bkxaCwCmixooJE7sIKxPTF6oh9E0s5+yWbhwdGo/o8E=
 			</data>
 		</dict>
 		<key>Base.lproj/Merchant.storyboardc/mwi-z2-kv5-view-zKw-sU-vg9.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yFm7ZMTUjj+FQkQydbiOIdrAS0ySH/uEX2RX2lXHOK4=
+			RSYmLpUN/+zwhRdbsjXRfbAsVJlnewmVuAULH1Rajlc=
 			</data>
 		</dict>
 		<key>Base.lproj/Merchant.storyboardc/mwi-z2-kv5-view-zKw-sU-vg9.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bky8Wi+yfNoL9kHTr9v64MJcyteunSmta/FSJNZ+D2Q=
+			yJhcA+CeABeXQ5l8kfryPNuLEWhrS9SO6bI835WSJ6c=
 			</data>
 		</dict>
 		<key>Base.lproj/MultipleTextInputTableViewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+p4+TifobZ2uTUb/kNTmm745XKLl9qjfmTQDySquye8=
+			8dRiQTy4RBFSn7sI9keoHws1cQzI4yIa8jnNbA8Hspk=
 			</data>
 		</dict>
 		<key>Base.lproj/MultipleTextInputTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SChiy1IjjV4g0OFX0MrnrMSgm96nl3FXhHbdDJfjWGs=
+			xkyjQ+mfE2rzqJr7vanlCIhzMe1DS/Xuc7359kHjLCI=
 			</data>
 		</dict>
 		<key>Base.lproj/NearbyAddressDetailTableViewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dl2f3CYvY5QInNDszp0gp4rX2pM7JJ/Y5Bj4wZRA0dY=
+			2xyC2yzJIDBO5puxKpYldaKmJXEzSKDBjqgAU+LTWg0=
 			</data>
 		</dict>
 		<key>Base.lproj/NearbyAddressDetailTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/yMuJ4C6cetqijWLh0wB8qhwvJANbyKUPGDKJZQBPhs=
+			3ajufCJTf3MVobqIWc3pTY7bre64TxdE1rrBMgvFlhI=
 			</data>
 		</dict>
 		<key>Base.lproj/NextActionTableViewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ortVrW+67zYNsRK0CNIpHxYQg+klTcuCP0yRn5022HQ=
+			PgDSgS3IuDTbCkwtmZr4+gSor5guIk0gZZusNyPkNNc=
 			</data>
 		</dict>
 		<key>Base.lproj/NextActionTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3TD9l4gCnPvX7D20cK8MLqkvRRLgafXgWDX934tWPvA=
+			ck0GUJpCGwqeNOFAl4SKSC4RUa8FE+ijSUHXsWdrWtU=
 			</data>
 		</dict>
 		<key>Base.lproj/PaymentBreakUpTableViewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KKWSzeurIIu/HnrasD7MBUe5vlEXKCuOHbiUbrR3U20=
+			4kdf5Iy7Agha4MY8aYU0HVsI9R4zLiUmVhUW+x8VPGQ=
 			</data>
 		</dict>
 		<key>Base.lproj/PaymentBreakUpTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P6/ULbtRoTpwxCX1FwEyDE9wQXrmvX/zhVqViajxkbQ=
+			uiCOOQj6xLB4BXDxo/ydznDsp3xbEDMyKJL4DEsjBMM=
 			</data>
 		</dict>
 		<key>Base.lproj/PaymentMethodTableViewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uPjUl+51MCxgHa405IE+bUxiTV98dXafSEpDk/Qfshw=
+			7XxDgT03qQb6MuA8EJrNF3Lizts+hkB26srcs5KY9uI=
 			</data>
 		</dict>
 		<key>Base.lproj/PaymentMethodTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G7AgYV/P/blSy9yJrw+z1YnmmUeLQUUwEXwNhb2PrWk=
+			F5q1zTz2y/jqFWsyw7ABKxFIzZHEp56eJn5I8OX37Lk=
 			</data>
 		</dict>
 		<key>Base.lproj/PointsTableViewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			49P0Zjf3bXo04gp6wP6fgrThwzLHiOm1KB5zgpda5uk=
+			bmJLMbCm/dakwi30IkT1ikeYDYk4lMWDD6Yif1e5vQ0=
 			</data>
 		</dict>
 		<key>Base.lproj/PointsTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x7exs6GeHvpWbTdjsCwqhSk8mlu44Zu5O9EJZlzMi8g=
+			A8EYMNsBpUk5yXyZwMpNQiGhA+2gi9zhHFo5P7mvKF4=
 			</data>
 		</dict>
 		<key>Base.lproj/PointsToRedeemTableViewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ysMCdh5RLgGX2FTo+KXZXGB1DuWo5JCTT2Obd6m+yX8=
+			a/5lZ7HEUuuJQRjPLMmxxIGByzjxupOm5wCn4XbsS5g=
 			</data>
 		</dict>
 		<key>Base.lproj/PointsToRedeemTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uHGdI3L1p0+yZahHCcPCettIHwL5D/EvPwsoi2JUhBA=
+			bpss5ACi//r/w7SA2eZYAzUI0R+LejB/ka4DGs0AhOQ=
 			</data>
 		</dict>
 		<key>Base.lproj/RadioButtonTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1UhphTa6PA6kao5lFZt4tzTfz9cpuhEae6+5EGOiAMQ=
+			j9Gz85qd4T8Ac5wijvyHWs+yAijuCiyWtAkYXx1smBw=
 			</data>
 		</dict>
 		<key>Base.lproj/SavedCardsTableViewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YCoA9x/NeNThRYTWWF3ZsCQTXUTv2/+L/Iba6mSTLuU=
+			CfZH7YgHeMu0vCWlCbcwdcEgONfYdk7BsIGIf/yHKkU=
 			</data>
 		</dict>
 		<key>Base.lproj/SavedCardsTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JrnyWOG3Jp3HFZ9D3sOljAjxiDASkVSWUZf8P0iTwYs=
+			Pz+g6mcGOvwBp/7AKDpDmIPAWV+xg8NYBN/CLLc3caY=
 			</data>
 		</dict>
 		<key>Base.lproj/SelectAddressTableViewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vvwoBOVp0Byxy9AWPgMUbnfPptCGCkDlg5gFzGicRJE=
+			Eq6yoVCZLTa4vsuo6fbDeYdlbPWZnAuafB9n3IDq82Q=
 			</data>
 		</dict>
 		<key>Base.lproj/SelectAddressTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vzDkYz28zk4M3twu0iWn2ZiMK9oAnAuTzC13UPDA3bY=
+			UW7P4y2FZivs2UrkTkau3xkQhgTKaCvoAOJFUgsOaS8=
 			</data>
 		</dict>
 		<key>Base.lproj/TextInputTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ezSdptsnn3T/YTwQtM5rdPaWLY+0HNZul31yHwh8cqw=
+			uyF0lk13MmytiUGqmqUIFF14b1hQ2YinoSlTzjtR3pk=
 			</data>
 		</dict>
 		<key>Base.lproj/TotalPointsHeader.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wqc9N1bgkiJTWVu48AujRAw6RXX8E9fEK9SwRl/MXt8=
+			Yv+niXVi3M8R2jD8x1TMM7kyBZkEh1Rryt9PQzgmO+M=
 			</data>
 		</dict>
 		<key>Base.lproj/TotalPointsHeader.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EbrCVorJ1UlFTDZgC6P3+NIQipOY37soBsPC1tKMDN4=
+			wW3XGWh3gWtIxG0ihQ3u+aW2yu9LyMOmJy/4m5ORTcw=
 			</data>
 		</dict>
 		<key>CheckoutHeaderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ygkSR/VKShjZvKyVMYbiPtgaLDCOdfAu5S2V7+8SjQc=
+			18pyKEE/LfB6v7k2nXUCHDpTGsc4rj6Va/UuoFDtwjY=
 			</data>
 		</dict>
 		<key>ChooseCourierView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VgTTlHXQ43p5Mv1JSFCOTiUUqYYqQrFSQL69dRNo4DI=
+			dPhwPfogIiOMzjpC/kVpjKekUEweSQcscYPotEV/YDE=
 			</data>
 		</dict>
 		<key>Configuration.plist</key>
@@ -2221,14 +2267,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TaerRKvryJ/b80U2Iyg0StiB2HJX2o4hdBvfQBs+Mw4=
+			PxJTybAUu3XTm1+JYeXCSk0RXzPc5Uy+NadW6T+oB94=
 			</data>
 		</dict>
 		<key>CourierItemTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VPdbCSooI3pMPXkOJrn3uDC5o2T9vzUMx2TfeS5kTd4=
+			1Fz4pk2M8Xb7xYw5E7zTIrlvuhKhC7avQWyTPxaVj3k=
 			</data>
 		</dict>
 		<key>CreateVoucher.storyboardc/CreateVoucherPopUpViewController.nib/objects-13.0+.nib</key>
@@ -2270,42 +2316,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cu3Yd02zypN4sTKECrI8nVwjZssGJcEeqIYvDY6DRGg=
+			dDzAxIDqa3fxuCKuZZ2zHYy/stXMeA3KZq7+N0jjP50=
 			</data>
 		</dict>
 		<key>CreateVoucher.storyboardc/YdB-Vz-Prf-view-2QC-Ho-ZuX.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xuDnl6QylkyWXKml6CRhuclfVABSDI/gHSm0GYppyvA=
+			onAOn7JeVHCNOmq8zg4mB/L7L5X4u8vvQDWLsVnVycs=
 			</data>
 		</dict>
 		<key>CreateVoucher.storyboardc/Yda-Z7-cNg-view-kbc-Gw-OOv.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O5zV2sZ/2iYG+cwBH+dHfduhH4JjWWap7OmSgXJ+ReA=
+			+i6vwoh1d8mml8CASwhMhL4Nd4DyU8N3fDB+WvHEBJk=
 			</data>
 		</dict>
 		<key>CreateVoucher.storyboardc/Yda-Z7-cNg-view-kbc-Gw-OOv.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R5S7ghPo6zIv8Avj2iMl27sMajrpmSnLSMhDiC70Ho8=
+			o7PthzoVO4HIvRVg7X91AiCxm8mq6nEuPmvqDMuJEeY=
 			</data>
 		</dict>
 		<key>CreditCardTableViewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C/cG6XVrRGLKmV87/xyRPO08oJstTtEOGvG+zVhBlAw=
+			0zIUycYVMC3ll6Mw8E5cNjF7ivYgjZewKuJjlwl91ds=
 			</data>
 		</dict>
 		<key>CreditCardTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lHiB2bB6kaPF6VId64jmo0N3cQvJgfIvXeyFUwDraYg=
+			Q1cqbaIGLnDErdd+c9Rruu3ILgdqzirXt83wd/2z78M=
 			</data>
 		</dict>
 		<key>Futura.ttc</key>
@@ -2319,7 +2365,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			203eOB4pybFOcsl9X3c0orlNDrzH00ej8XApndEhoyA=
+			OaRKXvvJyeT3h2euVnypHghFogqpmZ1MMEs2dhzds9w=
 			</data>
 		</dict>
 		<key>Headers/FawryPaySDK.h</key>
@@ -2333,14 +2379,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+6X+uNM80rwG/YUahTofbOxqQCmycoQEK6uqRKvjz0s=
+			1DUA1bdf+qZ239ocfEQKfyW+ws/G2WNuz5ZHn6hco4A=
 			</data>
 		</dict>
 		<key>InstallmentsCollectionViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7VktEPlm01+Xksj4rDvEmNC0Da0QrysptSM4x32uap4=
+			twhOP+W3Y4UP3dDGuIIrlCiexyW70t2x0hQFPq4yQzE=
 			</data>
 		</dict>
 		<key>InstallmentsTableViewCell.nib</key>
@@ -2354,56 +2400,98 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kbAHdxXya9aiMrjyikBu6E7hmjnEhOcN4lOcai2+RVw=
+			gOdyKCGv+6mWKRHoE7qSiom0KqcDLBNPtko7hgJ+9PQ=
 			</data>
 		</dict>
 		<key>MainHistoryTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lik9x3k9C8R28ShJvpu2BXJzuIGgIMmfCl27/Nsg+o4=
+			2gSoqkBNskZ4PqGAtGMTMlSrVDt5Pip7Fbg3MwGZHGw=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s7EsYgSwgt+8l8rfuxKg1KWnB3x6RaBDaSsotGB9LEo=
+			cB92J8++wI7m+l0RtwPwyW3x+GzZa5z1lATM41WzIiE=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UUowBuvD2x+aPNGD0eDrVa1Di4SpB6oHBONx8O/imUg=
+			JVCYui3MiIszku+ncV5fftFJWQSkRbh1Ndj+N3E65zE=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fc0flwjbsY/OykZUg/SjBYPLSMjX4qhFdYzwLvz4IzU=
+			2gBG5pe1/f+RzU4nk9C8Ym1uBJEY5Lpp8VNHHFTjCso=
+			</data>
+		</dict>
+		<key>Modules/FawryPaySDK.swiftmodule/arm64.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cB92J8++wI7m+l0RtwPwyW3x+GzZa5z1lATM41WzIiE=
+			</data>
+		</dict>
+		<key>Modules/FawryPaySDK.swiftmodule/arm64.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JVCYui3MiIszku+ncV5fftFJWQSkRbh1Ndj+N3E65zE=
+			</data>
+		</dict>
+		<key>Modules/FawryPaySDK.swiftmodule/arm64.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2gBG5pe1/f+RzU4nk9C8Ym1uBJEY5Lpp8VNHHFTjCso=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lNT30Y6s+ekfKVK5BqVHTU2fxQVGH9wll8HddXxYpD8=
+			z7UCRb+mxjk7AxAIMcHNrPpbMHe3JJaVxSdRfwS2GIg=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xjaKXxhQhAEc/gr63hrUlqcQZlar7KJ7s5wur1B37P4=
+			pslJD8KXIE1Z37FZvlcz5C4YwfGJw+hkYfQPgxiooPo=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dUsDKfzg5aX6KvUtWDK7PAEWGp+6wdIwH+wFieOO3yI=
+			661UHQvKcpEnCdTvSmWcm1qjOswkm2VQ3gJmf05xzUc=
+			</data>
+		</dict>
+		<key>Modules/FawryPaySDK.swiftmodule/x86_64.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			z7UCRb+mxjk7AxAIMcHNrPpbMHe3JJaVxSdRfwS2GIg=
+			</data>
+		</dict>
+		<key>Modules/FawryPaySDK.swiftmodule/x86_64.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pslJD8KXIE1Z37FZvlcz5C4YwfGJw+hkYfQPgxiooPo=
+			</data>
+		</dict>
+		<key>Modules/FawryPaySDK.swiftmodule/x86_64.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			661UHQvKcpEnCdTvSmWcm1qjOswkm2VQ3gJmf05xzUc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2452,84 +2540,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n/VkKP2XoJFhj+W6QXyMeqbkXTiFgVSHD4PvvvuXSNc=
+			GABTwujfydJeOeOWo84poMERtw9Uov75LJ7oP7vHYJg=
 			</data>
 		</dict>
 		<key>MyPoints.storyboardc/bwG-2K-bzw-view-1oK-L9-FBA.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/a74IIs8Tbh9MvwgkCsvSxmllYA6ARgpDv7VJ1O9Wsk=
+			ESZm27qypvm7halX8i48Idiam3iKsF5AXmRp0ePP1hw=
 			</data>
 		</dict>
 		<key>MyPoints.storyboardc/tFK-9B-48p-view-Scf-GR-Ajx.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BtMgR9zQ9s1BDRUaVE/Lrv1v1hLRlMgOwtBObWIuGss=
+			hvSw88jygCB9NqHag4rEtcI0Bn4uOfAdnx7Sdp/DWqg=
 			</data>
 		</dict>
 		<key>MyPoints.storyboardc/tFK-9B-48p-view-Scf-GR-Ajx.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gZJA8G+dbvpIC8HQ1cb0c+ZtknqizU+0WWaa33EcWh8=
+			MZfMpnGiyb9LeiiALiSu9M8jJDdlhQgedSqCG08w43o=
 			</data>
 		</dict>
 		<key>OrderNumberTableViewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9rCic8PFLco//GvH7Qx4+ilwuhT89KQzCrx+P/ex+zE=
+			hXL/qIN0LdQUen710kscVcR2S6uJI9whC4hBRFjawXg=
 			</data>
 		</dict>
 		<key>OrderNumberTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EZW3P1b1tMdJTe/dlUQo188DrzcMsnKlMR+OVKVvc2A=
+			xifvOyF8lViMJdEJfTlxueFEZ6yUEwqcr9Fl8/Mty7o=
 			</data>
 		</dict>
 		<key>PaymentAddressTableViewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M5jeOLgAUB+K5BZO1SZwuk4rRxPtwQHVhesUs+hYT6o=
+			KeDXx0lZmuWmTiinujcykt6ltsCDhTfnju2t8lLWq9E=
 			</data>
 		</dict>
 		<key>PaymentAddressTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T1L92L8s9qSdiLBpmyEcmtYZWeEjUfPrU+kMubxbSeo=
+			o5Jn3ZNthYfX85SA2OHRQOlP+l7BoIcbNnP2dE1d9Cc=
 			</data>
 		</dict>
 		<key>PreferredLocationTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2QVeZL5zUyQMUZRbnsOZdQAQGz9P40e31bSNczF4FZU=
+			7byDCD5OFYErjZ1jjDHbrknBhElZoNQ+J7DQYt2eM5A=
 			</data>
 		</dict>
 		<key>ProgramVouchersCollectionViewCell.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5rrVsg+TPFy+fPDBz8GBh5PurcGppvWnAu94w5yvhSM=
+			vQ7GVJd4xhyyI6b53HvD26FdtbMp2NVTvU/Hc2/6sW4=
 			</data>
 		</dict>
 		<key>ProgramVouchersCollectionViewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oguuYR5LpiXD/L5m8mcXtWJPr5UNojsNMYQPK7KZfbY=
+			uc0G2bRb5t+fQ7EGxrNk4cukpXQjLbBHAYwG0Brhpbc=
 			</data>
 		</dict>
 		<key>ProgramVouchersCollectionViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KQTwsHu9tiPF81rj01i0zLfRjtjkjlenqK0O4SCrJB0=
+			GikQbhibET7SEuC6d7q3ck8ulTx7IUDorfmDEV5QhiA=
 			</data>
 		</dict>
 		<key>ProgramVouchersTableViewCell.nib</key>
@@ -2543,7 +2631,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hVaZVsW5CO6PWO+4prM0nhjQ62ZHxFKEa7xCEpXkX+Q=
+			lbx/bxkv9LZQ/BkOe0Kw98H0dYvpDjQ5uTkD2KeGXTY=
 			</data>
 		</dict>
 		<key>ReleaseNotes.txt</key>
@@ -2564,14 +2652,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rB0YUpMDV1k/i+ipLvrkIm9/3dgKSTfTJFw2Q2lVLcw=
+			iTzEWn7K/AlFabU/XqVlpGGiu56HhBtwet7qJX6ang4=
 			</data>
 		</dict>
 		<key>ScheduledTimeTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GpL9Bvq/vYRSEIW9kZpZxkn2/qyQZcp4islLF9Ehbp0=
+			1SCvFxRlCwcImFbN6X/lTLfQ4Nk0Sz3wRcTEQIS9vek=
 			</data>
 		</dict>
 		<key>Steelworks Vintage Demo.ttf</key>
@@ -2585,70 +2673,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qO4esAKMhQKfdHp2Ou8Nv8hnVs+lcU0gzrzE9aSAZMk=
+			3ALoLn42UfQeqt3M8fm4CzVscrg7DO2F/M2YVSqeXEg=
 			</data>
 		</dict>
 		<key>TotalPointsTableViewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fi2DvRL3G9G8HoZtuEu43gHP5nu4ak1BiIvp9Dcs0yQ=
+			I9MpEg+mr/01iUNtPg9wviCMYTjI5FLeHC3F+oVlYrQ=
 			</data>
 		</dict>
 		<key>TotalPointsTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XGSYWIP/VIQPt7UcAyKbGwCBOauTmGcUaI9rq3Vo8HQ=
+			xiJQUlj+BwXQrdKF1kzkC1w6PwfMkfYXsXVEIxGwbG0=
 			</data>
 		</dict>
 		<key>VoucherAppliedTableViewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rjH/J5P6ZFunuHYXGRXitDj6J4ohQAGCB0gIQhBFMVY=
+			UDy+ol4yd+vNZ018Lti9S60o6rC7836cBAXNkm16rfE=
 			</data>
 		</dict>
 		<key>VoucherAppliedTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5QpXF2mYW+B198tc+QrA96X3pCN1PefunyF+fdyCIOE=
+			HD7Y8z8nicit7DsCzZfYWigT+s4+33jX/Q2L/Rfd4pw=
 			</data>
 		</dict>
 		<key>VoucherValuesHeader.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jJjtyg5V6uoESXO3k1JEb9bzs8ObLBWduQz6J/rAyRs=
+			SG4/VbeiEePVgqPU6o/on+zz5kjEuinoumXWw2bpXws=
 			</data>
 		</dict>
 		<key>VouchersTableViewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PmNTAMw68u5hucoL8WL3wWD/mxEx9HVtTGUPnuMy9uI=
+			DK4gsLgTP7Z645NhdwDdNEVxXK00N+ZrXVOkLpWgeoU=
 			</data>
 		</dict>
 		<key>VouchersTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1pK/yx/9kK7qGnz5qeIt2mc6DvyP3mH+KlEu/WHUUUk=
+			EXz9OYb4oSPV9uC30k4FtiMnpVR2eUBCZ1k5ahPg7rQ=
 			</data>
 		</dict>
 		<key>WalletPaymentOptionsTableViewCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hMW7OryB9qrR6GgT2KXMIEgum3RzatNKE2GksFsxtuc=
+			Dtg8blN7fP//jewZ05JIowJe/7kAIbbmrONe4lheCes=
 			</data>
 		</dict>
 		<key>WalletPaymentOptionsTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oZvV2PXVnMkxgV5Uc8eCultKALq8K8h9C77lHYMXigg=
+			Ym25mkt7aKO8IraGPWTEYpwWQtZFLDNWsJy4obf1cd4=
 			</data>
 		</dict>
 		<key>ar.lproj/ LoyaltyManagement.strings</key>
