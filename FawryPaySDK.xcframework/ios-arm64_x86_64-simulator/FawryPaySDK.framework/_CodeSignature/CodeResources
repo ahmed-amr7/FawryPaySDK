@@ -614,11 +614,11 @@
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		nxOvuT3sUsJIEl0gTKoYdiJO12s=
+		L4niMbnMG7v9JpmStLbTUpPekvY=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cmaSaaqYVoJE07cdjDLI/d4B2jo=
+		/AZSZLGXMuvUOS/xvQ2S03oHIho=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -626,11 +626,11 @@
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		nxOvuT3sUsJIEl0gTKoYdiJO12s=
+		L4niMbnMG7v9JpmStLbTUpPekvY=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		cmaSaaqYVoJE07cdjDLI/d4B2jo=
+		/AZSZLGXMuvUOS/xvQ2S03oHIho=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -638,11 +638,11 @@
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6dhLcsg9cBDIBhz6EaLNgL/LEwk=
+		Cxr3LthkmL1/6XCNPFfczILWBJ4=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1mQ+R4Lu+GAfcqidqIDh62k6wtc=
+		+fmcuozJ/M1Cfqz710NV839RkhE=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -650,11 +650,11 @@
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		6dhLcsg9cBDIBhz6EaLNgL/LEwk=
+		Cxr3LthkmL1/6XCNPFfczILWBJ4=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		1mQ+R4Lu+GAfcqidqIDh62k6wtc=
+		+fmcuozJ/M1Cfqz710NV839RkhE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1052,7 +1052,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1BMUlRdhIJzS54BWDqdPLkdGUVk=
+			uAvBqcZ5w78H0dwjL8BIz+Jd2kA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1326,7 +1326,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3wS1xOiRGjnBc5Y8zCgzqdLttYk=
+			HrVHU4yvcAcUmHHwL//KirHfa+0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2421,14 +2421,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JVCYui3MiIszku+ncV5fftFJWQSkRbh1Ndj+N3E65zE=
+			8+j1ZMhPL3ywxKsGjVMWcktmRKBc0/BCflkco1Hj6SU=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2gBG5pe1/f+RzU4nk9C8Ym1uBJEY5Lpp8VNHHFTjCso=
+			PcBu8H0t6OC7GEMGJLlWaNlAIMlsrQdUJ2Ofj4T2GNk=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64.swiftdoc</key>
@@ -2442,14 +2442,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JVCYui3MiIszku+ncV5fftFJWQSkRbh1Ndj+N3E65zE=
+			8+j1ZMhPL3ywxKsGjVMWcktmRKBc0/BCflkco1Hj6SU=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2gBG5pe1/f+RzU4nk9C8Ym1uBJEY5Lpp8VNHHFTjCso=
+			PcBu8H0t6OC7GEMGJLlWaNlAIMlsrQdUJ2Ofj4T2GNk=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -2463,14 +2463,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pslJD8KXIE1Z37FZvlcz5C4YwfGJw+hkYfQPgxiooPo=
+			N0t+GxooH09vhRqXlrGu2SHMx1pydATAZYbyhApWzpg=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			661UHQvKcpEnCdTvSmWcm1qjOswkm2VQ3gJmf05xzUc=
+			EnISpiB0k/2iMev6ElHu2RdHU9m+uTG64DId5I2AbVI=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64.swiftdoc</key>
@@ -2484,14 +2484,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pslJD8KXIE1Z37FZvlcz5C4YwfGJw+hkYfQPgxiooPo=
+			N0t+GxooH09vhRqXlrGu2SHMx1pydATAZYbyhApWzpg=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			661UHQvKcpEnCdTvSmWcm1qjOswkm2VQ3gJmf05xzUc=
+			EnISpiB0k/2iMev6ElHu2RdHU9m+uTG64DId5I2AbVI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2995,7 +2995,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EgUe+dTajbdR98eW9CYNR0IYr4X6oWERtSRPeInboGI=
+			JXquM3lwPOZQjVUgZdehmymHoFbezbFbkCgNhnV3tU4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3272,7 +3272,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0sZh/X6KgnTLBGo2md1oo15/e3SbfducpFvf6ZRYK2w=
+			ADirP4Lz4yW/HyyWASoeK3KQMnnptTjrFrmoVqKx76c=
 			</data>
 			<key>optional</key>
 			<true/>

@@ -527,6 +527,17 @@ public struct AppLanguage {
 public struct Currency {
   public static let egp: Swift.String
 }
+public enum Payment_Method : Swift.String, Swift.Codable {
+  case all
+  case payAtFawry
+  case card
+  case wallet
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public enum PaymentMethod : Swift.String, Swift.Codable {
   case payAtFawry
   case card
@@ -791,8 +802,9 @@ public class FawryLaunchModel : Swift.Codable {
   public var beneficiaryWalletNumber: Swift.String?
   public var avlFees: Swift.Double?
   public var paymentWithCardToken: Swift.Bool?
+  public var paymentMethod: FawryPaySDK.Payment_Method
   public init(customer: FawryPaySDK.LaunchCustomerModel?, merchant: FawryPaySDK.LaunchMerchantModel?, chargeItems: [FawryPaySDK.ChargeItemsParamsModel]?, signature: Swift.String?)
-  public init(customer: FawryPaySDK.LaunchCustomerModel?, merchant: FawryPaySDK.LaunchMerchantModel?, chargeItems: [FawryPaySDK.ChargeItemsParamsModel]?, signature: Swift.String?, allowVoucher: Swift.Bool, paymentWithCardToken: Swift.Bool?)
+  public init(customer: FawryPaySDK.LaunchCustomerModel?, merchant: FawryPaySDK.LaunchMerchantModel?, chargeItems: [FawryPaySDK.ChargeItemsParamsModel]?, signature: Swift.String?, allowVoucher: Swift.Bool, paymentWithCardToken: Swift.Bool?, paymentMethod: FawryPaySDK.Payment_Method = .all)
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
@@ -854,6 +866,9 @@ extension FawryPaySDK.ErrorCode : Swift.RawRepresentable {}
 extension FawryPaySDK.ErrorMessages : Swift.Equatable {}
 extension FawryPaySDK.ErrorMessages : Swift.Hashable {}
 extension FawryPaySDK.ErrorMessages : Swift.RawRepresentable {}
+extension FawryPaySDK.Payment_Method : Swift.Equatable {}
+extension FawryPaySDK.Payment_Method : Swift.Hashable {}
+extension FawryPaySDK.Payment_Method : Swift.RawRepresentable {}
 extension FawryPaySDK.PaymentMethod : Swift.Equatable {}
 extension FawryPaySDK.PaymentMethod : Swift.Hashable {}
 extension FawryPaySDK.PaymentMethod : Swift.RawRepresentable {}
