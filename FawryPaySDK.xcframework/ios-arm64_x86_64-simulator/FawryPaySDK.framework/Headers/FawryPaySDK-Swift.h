@@ -570,8 +570,8 @@ SWIFT_CLASS("_TtC11FawryPaySDK24SavedCardsViewController")
 @end
 
 
-SWIFT_CLASS("_TtC11FawryPaySDK10ThemeStyle")
-@interface ThemeStyle : NSObject
+SWIFT_CLASS("_TtC11FawryPaySDK21ThemeStyleFawryPaySDK")
+@interface ThemeStyleFawryPaySDK : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -1165,8 +1165,8 @@ SWIFT_CLASS("_TtC11FawryPaySDK24SavedCardsViewController")
 @end
 
 
-SWIFT_CLASS("_TtC11FawryPaySDK10ThemeStyle")
-@interface ThemeStyle : NSObject
+SWIFT_CLASS("_TtC11FawryPaySDK21ThemeStyleFawryPaySDK")
+@interface ThemeStyleFawryPaySDK : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

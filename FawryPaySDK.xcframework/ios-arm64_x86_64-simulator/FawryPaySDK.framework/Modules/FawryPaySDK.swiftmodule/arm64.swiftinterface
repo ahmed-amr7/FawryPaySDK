@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
-// swift-module-flags: -target arm64-apple-ios12.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FawryPaySDK
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FawryPaySDK
 import AVFoundation
 import Alamofire
 import CommonCrypto
@@ -424,7 +424,7 @@ public struct SavedCard : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-@objc public class ThemeStyle : ObjectiveC.NSObject {
+@objc public class ThemeStyleFawryPaySDK : ObjectiveC.NSObject {
   public var theme: UIKit.UIColor?
   public var lightBorder: UIKit.UIColor?
   public var darkBorder: UIKit.UIColor?
@@ -666,8 +666,8 @@ public enum SectionType {
   }
 }
 public class SectionViewModel {
-  public init(rowViewModels: [FawryPaySDK.RowViewModel], isEnable: Swift.Bool, sectionHeight: Swift.Float, sectionModel: FawryPaySDK.SectionModel?, sectionType: FawryPaySDK.SectionType?, themeStyle: FawryPaySDK.ThemeStyle? = nil)
-  public init(rowViewModels: [FawryPaySDK.RowViewModel], isEnable: Swift.Bool, sectionHeight: Swift.Float, sectionModel: FawryPaySDK.SectionModel?, sectionType: FawryPaySDK.SectionType?, themeStyle: FawryPaySDK.ThemeStyle? = nil, dimmed: Swift.Bool)
+  public init(rowViewModels: [FawryPaySDK.RowViewModel], isEnable: Swift.Bool, sectionHeight: Swift.Float, sectionModel: FawryPaySDK.SectionModel?, sectionType: FawryPaySDK.SectionType?, themeStyle: FawryPaySDK.ThemeStyleFawryPaySDK? = nil)
+  public init(rowViewModels: [FawryPaySDK.RowViewModel], isEnable: Swift.Bool, sectionHeight: Swift.Float, sectionModel: FawryPaySDK.SectionModel?, sectionType: FawryPaySDK.SectionType?, themeStyle: FawryPaySDK.ThemeStyleFawryPaySDK? = nil, dimmed: Swift.Bool)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MapViewController : FawryPaySDK.BaseViewController {
