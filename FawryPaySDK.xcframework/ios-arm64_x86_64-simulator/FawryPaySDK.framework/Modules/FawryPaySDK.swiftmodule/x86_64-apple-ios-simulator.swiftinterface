@@ -49,6 +49,20 @@ extension FawryPaySDK.PaymentDetailsViewController : UIKit.UITableViewDelegate, 
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
 }
+public enum MWalletOption {
+  case Notification, QRCode
+  public static func == (a: FawryPaySDK.MWalletOption, b: FawryPaySDK.MWalletOption) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class MWalletInfo {
+  public var selectedOption: FawryPaySDK.MWalletOption
+  public var mobNum: Swift.String?
+  public init(selectedOption: FawryPaySDK.MWalletOption, mobNum: Swift.String?)
+  @objc deinit
+}
 extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public func makeToast(_ message: Swift.String?, duration: Foundation.TimeInterval = ToastManager.shared.duration, position: FawryPaySDK.ToastPosition = ToastManager.shared.position, title: Swift.String? = nil, image: UIKit.UIImage? = nil, style: FawryPaySDK.ToastStyle = ToastManager.shared.style, completion: ((_ didTap: Swift.Bool) -> Swift.Void)? = nil)
   @_Concurrency.MainActor(unsafe) public func makeToast(_ message: Swift.String?, duration: Foundation.TimeInterval = ToastManager.shared.duration, point: CoreGraphics.CGPoint, title: Swift.String?, image: UIKit.UIImage?, style: FawryPaySDK.ToastStyle = ToastManager.shared.style, completion: ((_ didTap: Swift.Bool) -> Swift.Void)?)
@@ -295,7 +309,8 @@ extension UIKit.UITableViewCell {
   public typealias onPaymentCompletedHandler = (Any?) -> Swift.Void
   public func getMerchantReferenceNumber() -> Swift.String
   public func launchAnonymousSDK(on baseController: UIKit.UIViewController, isAnimating: Swift.Bool = true, isMock: Swift.Bool = false, customViewNib: Swift.String? = nil, customViewController: UIKit.UIViewController? = nil, launchModel: FawryPaySDK.FawryLaunchModel? = nil, baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, currency: Swift.String? = Currency.egp, enable3Ds: Swift.Bool = false, authCaptureModePayment: Swift.Bool = false, completionBlock: @escaping FawryPaySDK.FrameworkHelper.onCompletion, onPreCompletionHandler: @escaping FawryPaySDK.FrameworkHelper.onPreCompletion, errorBlock: @escaping FawryPaySDK.FrameworkHelper.onErrorHandler, onPaymentCompletedHandler: @escaping FawryPaySDK.FrameworkHelper.onPaymentCompletedHandler, onSuccessHandler: @escaping FawryPaySDK.FrameworkHelper.onSuccessHandler)
-  public func checkPaymentStatus(merchant: FawryPaySDK.LaunchMerchantModel, orderRefNum: Swift.String, errorBlock: @escaping FawryPaySDK.FrameworkHelper.onErrorHandler, onSuccessHandler: @escaping FawryPaySDK.FrameworkHelper.onSuccessHandler)
+  public func launchMWalletPayment(mWalletInfo: FawryPaySDK.MWalletInfo, launchModel: FawryPaySDK.FawryLaunchModel? = nil, baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, currency: Swift.String? = Currency.egp, enable3Ds: Swift.Bool = false, authCaptureModePayment: Swift.Bool = false, onPaymentCompletedHandler: @escaping FawryPaySDK.FrameworkHelper.onPaymentCompletedHandler, errorBlock: @escaping FawryPaySDK.FrameworkHelper.onErrorHandler, onSuccessHandler: @escaping FawryPaySDK.FrameworkHelper.onSuccessHandler)
+  public func checkPaymentStatus(baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, merchant: FawryPaySDK.LaunchMerchantModel, orderRefNum: Swift.String, errorBlock: @escaping FawryPaySDK.FrameworkHelper.onErrorHandler, onSuccessHandler: @escaping FawryPaySDK.FrameworkHelper.onSuccessHandler)
   public func launchAVL(on baseController: UIKit.UIViewController, isAnimating: Swift.Bool = true, isMock: Swift.Bool = false, customViewNib: Swift.String? = nil, customViewController: UIKit.UIViewController? = nil, launchModel: FawryPaySDK.FawryLaunchModel? = nil, baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, currency: Swift.String? = Currency.egp, enable3Ds: Swift.Bool = false, completionBlock: @escaping FawryPaySDK.FrameworkHelper.onCompletion, onPreCompletionHandler: @escaping FawryPaySDK.FrameworkHelper.onPreCompletion, errorBlock: @escaping FawryPaySDK.FrameworkHelper.onErrorHandler, onPaymentCompletedHandler: @escaping FawryPaySDK.FrameworkHelper.onPaymentCompletedHandler, onSuccessHandler: @escaping FawryPaySDK.FrameworkHelper.onSuccessHandler)
   public func launchCardTokenizer(on baseController: UIKit.UIViewController, launchModel: FawryPaySDK.FawryLaunchModel? = nil, baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, currency: Swift.String? = Currency.egp, enable3Ds: Swift.Bool = false, errorBlock: @escaping FawryPaySDK.FrameworkHelper.onErrorHandler, onAddedNewCard: @escaping FawryPaySDK.AddCardViewController.onAddNewCard, dismissBlock: @escaping FawryPaySDK.AddCardViewController.onDismiss)
   public func launchCardManager(on baseController: UIKit.UIViewController, launchModel: FawryPaySDK.FawryLaunchModel? = nil, baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, currency: Swift.String? = Currency.egp, enable3Ds: Swift.Bool = false, errorBlock: @escaping FawryPaySDK.FrameworkHelper.onErrorHandler, onAddedNewCard: @escaping FawryPaySDK.AddCardViewController.onAddNewCard, dismissBlock: @escaping FawryPaySDK.AddCardViewController.onDismiss)
@@ -848,6 +863,8 @@ public struct NextActionModel : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
+extension FawryPaySDK.MWalletOption : Swift.Equatable {}
+extension FawryPaySDK.MWalletOption : Swift.Hashable {}
 extension FawryPaySDK.ToastPosition : Swift.Equatable {}
 extension FawryPaySDK.ToastPosition : Swift.Hashable {}
 extension FawryPaySDK.NetworkError : Swift.Equatable {}
