@@ -224,36 +224,6 @@ SWIFT_CLASS("_TtC11FawryPaySDK18BaseViewController")
 @end
 
 @class UIView;
-@class UILabel;
-@class UIButton;
-@class NSLayoutConstraint;
-
-SWIFT_CLASS("_TtC11FawryPaySDK24AddAddressViewController")
-@interface AddAddressViewController : BaseViewController
-@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified backgroundView;
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified headerView;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified labelHeader;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified backButton;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified saveAddressButton;
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified checkOutView;
-@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified heightCheckoutView;
-- (void)viewDidLoad;
-- (IBAction)backButtonAction:(id _Nonnull)sender;
-- (IBAction)saveAddressButtonAction:(id _Nonnull)sender;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class UITableView;
-@class NSIndexPath;
-@class UITableViewCell;
-
-@interface AddAddressViewController (SWIFT_EXTENSION(FawryPaySDK)) <UITableViewDataSource, UITableViewDelegate>
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-@end
-
 
 SWIFT_CLASS("_TtC11FawryPaySDK21AddCardViewController")
 @interface AddCardViewController : BaseViewController
@@ -263,29 +233,6 @@ SWIFT_CLASS("_TtC11FawryPaySDK21AddCardViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-
-SWIFT_CLASS("_TtC11FawryPaySDK25AddressListViewController")
-@interface AddressListViewController : BaseViewController
-@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified backgroundView;
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified headerView;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified labelHeader;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified backButton;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified addAddressButton;
-- (void)viewDidLoad;
-- (IBAction)backButtonAction:(id _Nonnull)sender;
-- (IBAction)addNewAddressButtonAction:(id _Nonnull)sender;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface AddressListViewController (SWIFT_EXTENSION(FawryPaySDK)) <UITableViewDataSource, UITableViewDelegate>
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (void)tableView:(UITableView * _Nonnull)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-@end
 
 @class UITouch;
 @class UIEvent;
@@ -312,43 +259,6 @@ SWIFT_CLASS("_TtC11FawryPaySDK24ChargePaymentParamsModel")
 @interface ChargePaymentParamsModel : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC11FawryPaySDK32CreateVoucherPopUpViewController")
-@interface CreateVoucherPopUpViewController : BaseComponentViewController
-- (IBAction)crossBtnTapped:(id _Nonnull)sender;
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified baseView;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified dismissButton;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified labelHeader;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified labelDate;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified labelBody;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified copyCodeButton;
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC11FawryPaySDK27CreateVoucherViewController")
-@interface CreateVoucherViewController : BaseViewController
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified labelHeader;
-@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified backgroundView;
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified headerView;
-- (IBAction)backButtonAction:(UIButton * _Nonnull)sender;
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface CreateVoucherViewController (SWIFT_EXTENSION(FawryPaySDK)) <UITableViewDataSource, UITableViewDelegate>
-- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class UIColor;
@@ -394,95 +304,8 @@ SWIFT_CLASS("_TtC11FawryPaySDK19LaunchCustomerModel")
 @end
 
 
-SWIFT_CLASS("_TtC11FawryPaySDK17MapViewController")
-@interface MapViewController : BaseViewController
-- (void)viewDidLoad;
-- (void)viewDidAppear:(BOOL)animated;
-- (IBAction)cancelButtonAction:(id _Nonnull)sender;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface MapViewController (SWIFT_EXTENSION(FawryPaySDK)) <UITableViewDataSource, UITableViewDelegate>
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-@end
-
-@class UITextField;
-
-@interface MapViewController (SWIFT_EXTENSION(FawryPaySDK)) <UITextFieldDelegate>
-- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
-- (BOOL)textFieldShouldClear:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
-SWIFT_CLASS("_TtC11FawryPaySDK25MyPointsNewViewController")
-@interface MyPointsNewViewController : BaseViewController
-- (IBAction)backBtnAction:(id _Nonnull)sender;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified beanosCashBalanceAmount;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified totalPointsLabel;
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified totalPointsBaseView;
-@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified tableViewButtonsBaseView;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified vouchersHistoryTabButton;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified pointsHistoryTabButton;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified pointsHistoryBtnAction;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified pointsLabel;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified headerDescriptionLabel;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified userMonetaryValueLabel;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified userTotalPointsLabel;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified createVoucherButton;
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified cashBalanceBaseView;
-- (IBAction)createVoucherButtonAction:(id _Nonnull)sender;
-- (IBAction)selectTabAction:(UIButton * _Nonnull)sender;
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface MyPointsNewViewController (SWIFT_EXTENSION(FawryPaySDK)) <UITableViewDataSourcePrefetching>
-- (void)tableView:(UITableView * _Nonnull)tableView prefetchRowsAtIndexPaths:(NSArray<NSIndexPath *> * _Nonnull)indexPaths;
-@end
-
-
-@interface MyPointsNewViewController (SWIFT_EXTENSION(FawryPaySDK)) <UITableViewDataSource, UITableViewDelegate>
-- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-@end
-
-
-
-SWIFT_CLASS("_TtC11FawryPaySDK27NearbyAddressViewController")
-@interface NearbyAddressViewController : BaseViewController
-@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified backgroundView;
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified headerView;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified labelHeader;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified doneButton;
-- (void)viewDidLoad;
-- (void)viewDidAppear:(BOOL)animated;
-- (IBAction)backButtonAction:(id _Nonnull)sender;
-- (IBAction)doneButtonAction:(id _Nonnull)sender;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface NearbyAddressViewController (SWIFT_EXTENSION(FawryPaySDK)) <UITableViewDataSource, UITableViewDelegate>
-- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-@end
-
+@class UIButton;
+@class UILabel;
 
 SWIFT_CLASS("_TtC11FawryPaySDK28PaymentDetailsViewController")
 @interface PaymentDetailsViewController : BaseViewController
@@ -502,8 +325,9 @@ SWIFT_CLASS("_TtC11FawryPaySDK28PaymentDetailsViewController")
 
 
 
-
-
+@class UITableView;
+@class NSIndexPath;
+@class UITableViewCell;
 
 @interface PaymentDetailsViewController (SWIFT_EXTENSION(FawryPaySDK)) <UITableViewDataSource, UITableViewDelegate>
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
