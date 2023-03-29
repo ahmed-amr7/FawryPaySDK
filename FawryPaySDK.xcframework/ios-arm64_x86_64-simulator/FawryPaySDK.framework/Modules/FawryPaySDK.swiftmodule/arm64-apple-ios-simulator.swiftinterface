@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FawryPaySDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import Alamofire
 import CommonCrypto
@@ -8,15 +9,14 @@ import CryptoKit
 @_exported import FawryPaySDK
 import Foundation
 import IQKeyboardManagerSwift
-import MBRadioButton
 import ObjectiveC
 import RxSwift
-import SVProgressHUD
 import Swift
 import SwiftMessages
 import UIKit
 import WebKit
 import _Concurrency
+import _StringProcessing
 @objc @_inheritsConvenienceInitializers public class FawrySDKConfigurationManager : ObjectiveC.NSObject {
   public static let shared: FawryPaySDK.FawrySDKConfigurationManager
   public func loadConfigurations(with baseURL: Swift.String? = nil)
@@ -31,6 +31,24 @@ import _Concurrency
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
+}
+public enum RadioCheckboxStyle {
+  case rounded(radius: CoreFoundation.CGFloat), square, circle
+}
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class RadioCheckboxBaseButton : UIKit.UIButton {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public var isOn: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) convenience public init?(type buttonType: UIKit.UIButton.ButtonType)
+  @_Concurrency.MainActor(unsafe) public var style: FawryPaySDK.RadioCheckboxStyle {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public func updateSelectionState()
+  @objc deinit
 }
 public enum MWalletOption {
   case Notification, QRCode
@@ -48,15 +66,15 @@ public class MWalletInfo {
 }
 extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public func makeToast(_ message: Swift.String?, duration: Foundation.TimeInterval = ToastManager.shared.duration, position: FawryPaySDK.ToastPosition = ToastManager.shared.position, title: Swift.String? = nil, image: UIKit.UIImage? = nil, style: FawryPaySDK.ToastStyle = ToastManager.shared.style, completion: ((_ didTap: Swift.Bool) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) public func makeToast(_ message: Swift.String?, duration: Foundation.TimeInterval = ToastManager.shared.duration, point: CoreGraphics.CGPoint, title: Swift.String?, image: UIKit.UIImage?, style: FawryPaySDK.ToastStyle = ToastManager.shared.style, completion: ((_ didTap: Swift.Bool) -> Swift.Void)?)
+  @_Concurrency.MainActor(unsafe) public func makeToast(_ message: Swift.String?, duration: Foundation.TimeInterval = ToastManager.shared.duration, point: CoreFoundation.CGPoint, title: Swift.String?, image: UIKit.UIImage?, style: FawryPaySDK.ToastStyle = ToastManager.shared.style, completion: ((_ didTap: Swift.Bool) -> Swift.Void)?)
   @_Concurrency.MainActor(unsafe) public func showToast(_ toast: UIKit.UIView, duration: Foundation.TimeInterval = ToastManager.shared.duration, position: FawryPaySDK.ToastPosition = ToastManager.shared.position, completion: ((_ didTap: Swift.Bool) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) public func showToast(_ toast: UIKit.UIView, duration: Foundation.TimeInterval = ToastManager.shared.duration, point: CoreGraphics.CGPoint, completion: ((_ didTap: Swift.Bool) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public func showToast(_ toast: UIKit.UIView, duration: Foundation.TimeInterval = ToastManager.shared.duration, point: CoreFoundation.CGPoint, completion: ((_ didTap: Swift.Bool) -> Swift.Void)? = nil)
   @_Concurrency.MainActor(unsafe) public func hideToast()
   @_Concurrency.MainActor(unsafe) public func hideToast(_ toast: UIKit.UIView)
   @_Concurrency.MainActor(unsafe) public func hideAllToasts(includeActivity: Swift.Bool = false, clearQueue: Swift.Bool = true)
   @_Concurrency.MainActor(unsafe) public func clearToastQueue()
   @_Concurrency.MainActor(unsafe) public func makeToastActivity(_ position: FawryPaySDK.ToastPosition)
-  @_Concurrency.MainActor(unsafe) public func makeToastActivity(_ point: CoreGraphics.CGPoint)
+  @_Concurrency.MainActor(unsafe) public func makeToastActivity(_ point: CoreFoundation.CGPoint)
   @_Concurrency.MainActor(unsafe) public func hideToastActivity()
   @_Concurrency.MainActor(unsafe) public func toastViewForMessage(_ message: Swift.String?, title: Swift.String?, image: UIKit.UIImage?, style: FawryPaySDK.ToastStyle) throws -> UIKit.UIView
 }
@@ -65,17 +83,17 @@ public struct ToastStyle {
   public var backgroundColor: UIKit.UIColor
   public var titleColor: UIKit.UIColor
   public var messageColor: UIKit.UIColor
-  public var maxWidthPercentage: CoreGraphics.CGFloat {
+  public var maxWidthPercentage: CoreFoundation.CGFloat {
     get
     set
   }
-  public var maxHeightPercentage: CoreGraphics.CGFloat {
+  public var maxHeightPercentage: CoreFoundation.CGFloat {
     get
     set
   }
-  public var horizontalPadding: CoreGraphics.CGFloat
-  public var verticalPadding: CoreGraphics.CGFloat
-  public var cornerRadius: CoreGraphics.CGFloat
+  public var horizontalPadding: CoreFoundation.CGFloat
+  public var verticalPadding: CoreFoundation.CGFloat
+  public var cornerRadius: CoreFoundation.CGFloat
   public var titleFont: UIKit.UIFont
   public var messageFont: UIKit.UIFont
   public var titleAlignment: UIKit.NSTextAlignment
@@ -88,10 +106,10 @@ public struct ToastStyle {
     get
     set
   }
-  public var shadowRadius: CoreGraphics.CGFloat
-  public var shadowOffset: CoreGraphics.CGSize
-  public var imageSize: CoreGraphics.CGSize
-  public var activitySize: CoreGraphics.CGSize
+  public var shadowRadius: CoreFoundation.CGFloat
+  public var shadowOffset: CoreFoundation.CGSize
+  public var imageSize: CoreFoundation.CGSize
+  public var activitySize: CoreFoundation.CGSize
   public var fadeDuration: Swift.Double
   public var activityIndicatorColor: UIKit.UIColor
   public var activityBackgroundColor: UIKit.UIColor
@@ -130,6 +148,42 @@ public enum NetworkError : Swift.Error, Swift.CustomStringConvertible {
   public var hashValue: Swift.Int {
     get
   }
+}
+public protocol CheckboxButtonDelegate : AnyObject {
+  func chechboxButtonDidSelect(_ button: FawryPaySDK.CheckboxButton)
+  func chechboxButtonDidDeselect(_ button: FawryPaySDK.CheckboxButton)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CheckboxButton : FawryPaySDK.RadioCheckboxBaseButton {
+  @_Concurrency.MainActor(unsafe) weak public var delegate: FawryPaySDK.CheckboxButtonDelegate?
+  @_Concurrency.MainActor(unsafe) public var checkBoxColor: FawryPaySDK.CheckBoxColor! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var checkboxLine: FawryPaySDK.CheckboxLineStyle {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc deinit
+}
+public protocol RadioButtonDelegate : AnyObject {
+  func radioButtonDidSelect(_ button: FawryPaySDK.RadioButton)
+  func radioButtonDidDeselect(_ button: FawryPaySDK.RadioButton)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class RadioButton : FawryPaySDK.RadioCheckboxBaseButton {
+  @_Concurrency.MainActor(unsafe) weak public var delegate: FawryPaySDK.RadioButtonDelegate?
+  @_Concurrency.MainActor(unsafe) public var radioCircle: FawryPaySDK.RadioButtonCircleStyle {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var radioButtonColor: FawryPaySDK.RadioButtonColor! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc deinit
 }
 @objc public protocol RowViewModel {
   @objc func cellIdentifier() -> Swift.String
@@ -170,16 +224,16 @@ extension FawryPaySDK.PaymentDetailsViewController : UIKit.UITableViewDelegate, 
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreGraphics.CGFloat
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
 }
 @objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class DesignableView : UIKit.UIView {
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var cornerRadius: CoreGraphics.CGFloat {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var cornerRadius: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var borderWidth: CoreGraphics.CGFloat {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var borderWidth: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
@@ -187,7 +241,7 @@ extension FawryPaySDK.PaymentDetailsViewController : UIKit.UITableViewDelegate, 
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var shadowRadius: CoreGraphics.CGFloat {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var shadowRadius: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
@@ -195,7 +249,7 @@ extension FawryPaySDK.PaymentDetailsViewController : UIKit.UITableViewDelegate, 
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var shadowOffset: CoreGraphics.CGSize {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var shadowOffset: CoreFoundation.CGSize {
     @objc get
     @objc set
   }
@@ -203,7 +257,7 @@ extension FawryPaySDK.PaymentDetailsViewController : UIKit.UITableViewDelegate, 
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
@@ -224,7 +278,7 @@ extension FawryPaySDK.PaymentDetailsViewController : UIKit.UITableViewDelegate, 
 extension FawryPaySDK.SavedCardsViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, commit editingStyle: UIKit.UITableViewCell.EditingStyle, forRowAt indexPath: Foundation.IndexPath)
 }
 public enum AddressErrorMessages : Swift.String {
@@ -291,6 +345,50 @@ extension Foundation.Date {
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers public class CheckboxButtonContainer : FawryPaySDK.RadioCheckboxBaseContainer<FawryPaySDK.CheckboxButton> {
+  weak public var delegate: FawryPaySDK.CheckboxButtonDelegate? {
+    get
+    set
+  }
+  @discardableResult
+  override public func addButton(_ button: FawryPaySDK.CheckboxButtonContainer.Kind) -> Swift.Bool
+  public var checkboxButtonColor: FawryPaySDK.CheckBoxColor? {
+    get
+    set
+  }
+  public var checkboxLineStyle: FawryPaySDK.CheckboxLineStyle? {
+    get
+    set
+  }
+  public func setEachCheckboxButtonColor(_ body: (FawryPaySDK.CheckboxButtonContainer.Kind) -> FawryPaySDK.CheckBoxColor)
+  public func setEachCheckboxButtonLineStyle(_ body: (FawryPaySDK.CheckboxButtonContainer.Kind) -> FawryPaySDK.CheckboxLineStyle)
+  override public init(_ buttons: [FawryPaySDK.CheckboxButton] = super)
+  @objc deinit
+}
+public class RadioCheckboxBaseContainer<T> where T : FawryPaySDK.RadioCheckboxBaseButton {
+  public typealias Kind = T
+  public init(_ buttons: [T] = [])
+  public var allButtons: [T] {
+    get
+  }
+  public func addButtons(_ buttons: [T])
+  public func deselectAll()
+  public var selectedButtons: [T] {
+    get
+    set
+  }
+  @discardableResult
+  public func addButton(_ button: T) -> Swift.Bool
+  @discardableResult
+  public func removeButton(_ button: T) -> Swift.Bool
+  public var buttonStyle: FawryPaySDK.RadioCheckboxStyle? {
+    get
+    set
+  }
+  public func setEachButtonStyle(_ body: (T) -> FawryPaySDK.RadioCheckboxStyle)
+  public func compact()
+  @objc deinit
 }
 public class Governorate : Swift.Codable {
   public init(code: Swift.String?, name: Swift.String?, namePrimaryLang: Swift.String?, nameSecondaryLang: Swift.String?, cities: [FawryPaySDK.City]? = nil)
@@ -432,6 +530,11 @@ public enum PaymentURLs : Swift.String, Swift.Codable {
     get
   }
 }
+public struct RadioButtonCircleStyle {
+  public init(outerCircle: CoreFoundation.CGFloat = 16, innerCircle: CoreFoundation.CGFloat = 7, outerCircleBorder: CoreFoundation.CGFloat = 2, contentPadding: CoreFoundation.CGFloat = 6)
+  public init(outerCircle: CoreFoundation.CGFloat, innerCircle: CoreFoundation.CGFloat)
+  public init(outerCircle: CoreFoundation.CGFloat, innerCircle: CoreFoundation.CGFloat, outerCircleBorder: CoreFoundation.CGFloat)
+}
 extension Foundation.Data {
   public func sha256() -> Swift.String
 }
@@ -447,6 +550,25 @@ public class CardDetailsModel : Swift.Codable {
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
+}
+public struct CheckboxLineStyle {
+  public init(checkBoxHeight: CoreFoundation.CGFloat, checkmarkLineWidth: CoreFoundation.CGFloat = -1, padding: CoreFoundation.CGFloat = 6)
+  public init(checkmarkLineWidth: CoreFoundation.CGFloat, padding: CoreFoundation.CGFloat = 6)
+  public init(padding: CoreFoundation.CGFloat = 6)
+  public var size: CoreFoundation.CGSize {
+    get
+  }
+}
+@objc @_Concurrency.MainActor(unsafe) open class RadioButtonContainerView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var buttonContainer: FawryPaySDK.RadioButtonContainer {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func didAddSubview(_ subview: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func willRemoveSubview(_ subview: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) public func addButton(_ button: FawryPaySDK.RadioButtonContainer.Kind)
+  @_Concurrency.MainActor(unsafe) public func removeButton(_ view: FawryPaySDK.RadioButtonContainer.Kind)
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class AddCardViewController : FawryPaySDK.BaseViewController {
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) open var backgroundView: UIKit.UIView!
@@ -481,13 +603,13 @@ extension FawryPaySDK.PaymentReceiptViewController : UIKit.UITableViewDelegate, 
   @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class BaseViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
-    @_Concurrency.MainActor(unsafe) @objc get
+    @objc get
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
@@ -497,6 +619,30 @@ extension FawryPaySDK.PaymentReceiptViewController : UIKit.UITableViewDelegate, 
 }
 extension FawryPaySDK.BaseViewController : UIKit.UIGestureRecognizerDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizerShouldBegin(_ gestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+}
+@_inheritsConvenienceInitializers public class RadioButtonContainer : FawryPaySDK.RadioCheckboxBaseContainer<FawryPaySDK.RadioButton> {
+  weak public var delegate: FawryPaySDK.RadioButtonDelegate? {
+    get
+    set
+  }
+  public var selectedButton: FawryPaySDK.RadioButtonContainer.Kind? {
+    get
+    set
+  }
+  @discardableResult
+  override public func addButton(_ button: FawryPaySDK.RadioButtonContainer.Kind) -> Swift.Bool
+  public var radioButtonColor: FawryPaySDK.RadioButtonColor? {
+    get
+    set
+  }
+  public var radioCircleStyle: FawryPaySDK.RadioButtonCircleStyle? {
+    get
+    set
+  }
+  public func setEachRadioButtonColor(_ body: (FawryPaySDK.RadioButtonContainer.Kind) -> FawryPaySDK.RadioButtonColor)
+  public func setEachRadioButtonCircleStyle(_ body: (FawryPaySDK.RadioButtonContainer.Kind) -> FawryPaySDK.RadioButtonCircleStyle)
+  override public init(_ buttons: [FawryPaySDK.RadioButton] = super)
+  @objc deinit
 }
 public enum SectionType {
   case textOnly
@@ -564,6 +710,17 @@ public enum FawrySDKStatusCode : Swift.Int {
     get
   }
 }
+@objc @_Concurrency.MainActor(unsafe) open class CheckboxButtonContainerView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var buttonContainer: FawryPaySDK.CheckboxButtonContainer {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func didAddSubview(_ subview: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func willRemoveSubview(_ subview: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) public func addButton(_ button: FawryPaySDK.CheckboxButtonContainer.Kind)
+  @_Concurrency.MainActor(unsafe) public func removeButton(_ button: FawryPaySDK.CheckboxButtonContainer.Kind)
+  @objc deinit
+}
 extension UIKit.UIColor {
   public static var themeColor: UIKit.UIColor {
     get
@@ -626,6 +783,12 @@ public enum ServiceTypeCode : Swift.String {
   public var rawValue: Swift.String {
     get
   }
+}
+public struct CheckBoxColor {
+  public init(activeColor: UIKit.UIColor, inactiveColor: UIKit.UIColor, inactiveBorderColor: UIKit.UIColor, checkMarkColor: UIKit.UIColor)
+}
+public struct RadioButtonColor {
+  public init(active: UIKit.UIColor, inactive: UIKit.UIColor)
 }
 @_hasMissingDesignatedInitializers public class PaymentChargeResponse : Swift.Codable {
   public var merchantRefNumber: Swift.String?
