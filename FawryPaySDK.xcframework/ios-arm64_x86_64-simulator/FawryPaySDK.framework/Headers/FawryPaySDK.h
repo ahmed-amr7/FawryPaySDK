@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SVProgressHUD.h"
 
 //! Project version number for FawryPaySDK.
 FOUNDATION_EXPORT double FawryPaySDKVersionNumber;
